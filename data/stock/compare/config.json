@@ -1,0 +1,44 @@
+{
+  "data": {
+    "graphConfig": {
+      "xAxisLabel": "Period",
+      "yAxisLabel": "Return (%)",
+      "durationSelector": {
+        "options": [
+          {
+            "key": "1Y",
+            "label": "1 Year"
+          },
+          {
+            "key": "5Y",
+            "label": "5 Year"
+          }
+        ],
+        "default": "3Y"
+      }
+    },
+    "maxAllowedStock": 4,
+    "tableConfig": {
+      "columns": [
+        {
+          "title": "Duration",
+          "key": "duration"
+        }
+      ],
+      "rows": [
+        {
+          "duration": "1 Week",
+          "key": "1W"
+        },
+        {
+          "duration": "1 Month",
+          "key": "1M"
+        },
+        {
+          "duration": "3 Months",
+          "key": "3M"
+        }
+      ]
+    }
+  }
+}

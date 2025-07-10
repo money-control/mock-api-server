@@ -1,0 +1,37 @@
+{
+  "data": {
+    "type": "best-quarter",
+    "viewType": "table",
+    "config": {
+      "columns": [
+        {
+          "title": "Period",
+          "key": "period"
+        },
+        {
+          "title": "SBI",
+          "key": "stockReturn",
+          "format": "percent"
+        },
+        {
+          "title": "Nifty 50",
+          "key": "benchmarkReturn",
+          "format": "percent"
+        }
+      ]
+    },
+    "rows": [
+      {
+        "period": "Q1-2023",
+        "stockReturn": {
+          "value": 4.21,
+          "displayValue": "4.21%"
+        },
+        "benchmarkReturn": {
+          "value": 4.56,
+          "displayValue": "4.56%"
+        }
+      }
+    ]
+  }
+}

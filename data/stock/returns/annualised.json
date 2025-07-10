@@ -1,0 +1,22 @@
+{
+  "data": {
+    "type": "annualised",
+    "viewType": "grid",
+    "returns": [
+      {
+        "label": "1Y",
+        "return": {
+          "value": -12.43,
+          "displayValue": "-12.43%"
+        }
+      },
+      {
+        "label": "3Y",
+        "return": {
+          "value": 4.21,
+          "displayValue": "4.21%"
+        }
+      }
+    ]
+  }
+}

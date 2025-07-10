@@ -1,0 +1,57 @@
+{
+  "data": {
+    "type": "rolling",
+    "viewType": "graph",
+    "config": {
+      "xAxisLabel": "Period",
+      "yAxisLabel": "Return (%)",
+      "durationSelector": {
+        "options": [
+          {
+            "key": "1Y",
+            "label": "1 Year"
+          },
+          {
+            "key": "5Y",
+            "label": "5 Year"
+          }
+        ],
+        "default": "3Y"
+      }
+    },
+    "returnsByDuration": {
+      "1Y": [
+        {
+          "label": "Q1-22",
+          "return": {
+            "value": 8.21,
+            "displayValue": "8.21%"
+          }
+        },
+        {
+          "label": "Q1-22",
+          "return": {
+            "value": 8.21,
+            "displayValue": "8.21%"
+          }
+        }
+      ],
+      "2Y": [
+        {
+          "label": "Q1-22",
+          "return": {
+            "value": 8.21,
+            "displayValue": "8.21%"
+          }
+        },
+        {
+          "label": "Q1-22",
+          "return": {
+            "value": 8.21,
+            "displayValue": "8.21%"
+          }
+        }
+      ]
+    }
+  }
+}

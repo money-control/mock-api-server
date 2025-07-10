@@ -1,0 +1,27 @@
+{
+  "data": {
+    "default": "absolute",
+    "types": [
+      {
+        "key": "absolute",
+        "label": "Absolute Returns"
+      },
+      {
+        "key": "annualised",
+        "label": "Annualised Returns"
+      },
+      {
+        "key": "worst-quarter",
+        "label": "Worst Quarter"
+      },
+      {
+        "key": "best-quarter",
+        "label": "Best Quarter"
+      },
+      {
+        "key": "rolling",
+        "label": "Rolling Returns"
+      }
+    ]
+  }
+}

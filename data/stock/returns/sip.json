@@ -1,0 +1,66 @@
+{
+  "data": {
+    "note": "Assuming user is buying ₹10,000/- worth of stocks per month",
+    "mode": "amount",
+    "config": {
+      "columns": [
+        {
+          "key": "period",
+          "title": "Period Invested For"
+        },
+        {
+          "key": "sipStartDate",
+          "title": "SIP Start Date"
+        },
+        {
+          "key": "investment",
+          "title": "Investment"
+        },
+        {
+          "key": "latestValue",
+          "title": "Latest Value"
+        },
+        {
+          "key": "absoluteReturn",
+          "title": "Absolute Return",
+          "format": "percent"
+        },
+        {
+          "key": "xirr",
+          "title": "XIRR",
+          "format": "percent"
+        }
+      ]
+    },
+    "rows": [
+      {
+        "period": "1Y",
+        "sipStartDate": "2024-05-01",
+        "investment": 120000,
+        "latestValue": 132460.34,
+        "absoluteReturn": {
+          "value": "10.38",
+          "displayValue": "10.38%"
+        },
+        "xirr": {
+          "value": 11.72,
+          "displayValue": "11.72%"
+        }
+      },
+      {
+        "period": "2Y",
+        "sipStartDate": "2023-05-01",
+        "investment": 240000,
+        "latestValue": 264880.10,
+        "absoluteReturn": {
+          "value": 10.37,
+          "displayValue": "10.37%"
+        },
+        "xirr": {
+          "value": 11.35,
+          "displayValue": "11.35%"
+        }
+      }
+    ]
+  }
+}
