@@ -35,11 +35,11 @@
     "rows": [
       {
         "period": "1Y",
-        "sipStartDate": "2024-05-01",
+        "sipStartDate": "2024-07-01",
         "investment": 120000,
         "latestValue": 132460.34,
         "absoluteReturn": {
-          "value": "10.38",
+          "value": 10.38,
           "displayValue": "10.38%"
         },
         "xirr": {
@@ -49,7 +49,7 @@
       },
       {
         "period": "2Y",
-        "sipStartDate": "2023-05-01",
+        "sipStartDate": "2023-07-01",
         "investment": 240000,
         "latestValue": 264880.10,
         "absoluteReturn": {
@@ -59,6 +59,34 @@
         "xirr": {
           "value": 11.35,
           "displayValue": "11.35%"
+        }
+      },
+      {
+        "period": "3Y",
+        "sipStartDate": "2022-07-01",
+        "investment": 360000,
+        "latestValue": 412310.50,
+        "absoluteReturn": {
+          "value": 14.53,
+          "displayValue": "14.53%"
+        },
+        "xirr": {
+          "value": 12.67,
+          "displayValue": "12.67%"
+        }
+      },
+      {
+        "period": "5Y",
+        "sipStartDate": "2020-07-01",
+        "investment": 600000,
+        "latestValue": 690245.25,
+        "absoluteReturn": {
+          "value": 15.04,
+          "displayValue": "15.04%"
+        },
+        "xirr": {
+          "value": 11.89,
+          "displayValue": "11.89%"
         }
       }
     ]

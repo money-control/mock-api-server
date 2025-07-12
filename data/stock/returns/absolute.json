@@ -4,28 +4,91 @@
     "viewType": "grid",
     "returns": [
       {
-        "label": "1Y",
+        "label": "Year to Date",
+        "return": {
+          "value": 0.00,
+          "displayValue": "0.00%"
+        }
+      },
+      {
+        "label": "1 Week",
+        "return": {
+          "value": -1.75,
+          "displayValue": "-1.75%"
+        }
+      },
+      {
+        "label": "1 Month",
+        "return": {
+          "value": 3.42,
+          "displayValue": "3.42%"
+        }
+      },
+      {
+        "label": "3 Month",
+        "return": {
+          "value": -0.59,
+          "displayValue": "-0.59%"
+        }
+      },
+      {
+        "label": "6 Month",
+        "return": {
+          "value": 6.88,
+          "displayValue": "6.88%"
+        }
+      },
+      {
+        "label": "1 Year",
         "return": {
           "value": -12.43,
           "displayValue": "-12.43%"
         }
       },
       {
-        "label": "3Y",
+        "label": "2 Year",
+        "return": {
+          "value": 1.12,
+          "displayValue": "1.12%"
+        }
+      },
+      {
+        "label": "3 Year",
         "return": {
           "value": 4.21,
           "displayValue": "4.21%"
+        }
+      },
+      {
+        "label": "5 Year",
+        "return": {
+          "value": 18.77,
+          "displayValue": "18.77%"
+        }
+      },
+      {
+        "label": "10 Year",
+        "return": {
+          "value": 72.35,
+          "displayValue": "72.35%"
+        }
+      },
+      {
+        "label": "Since Inception",
+        "return": {
+          "value": 125.68,
+          "displayValue": "125.68%"
         }
       }
     ],
     "ctaList": [
       {
         "label": "Chart View",
-        "actionUrl": ""
+        "actionUrl": "https://moneycontrol.com/stock-return-compare"
       },
       {
         "label": "Sip Returns",
-        "actionUrl": ""
+        "actionUrl": "https://moneycontrol.com/stock-sip-return"
       }
     ]
   }

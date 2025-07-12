@@ -4,17 +4,52 @@
     "viewType": "grid",
     "returns": [
       {
-        "label": "1Y",
+        "label": "6 Month",
+        "return": {
+          "value": null,
+          "displayValue": "NA"
+        }
+      },
+      {
+        "label": "1 Year",
         "return": {
           "value": -12.43,
           "displayValue": "-12.43%"
         }
       },
       {
-        "label": "3Y",
+        "label": "2 Year",
         "return": {
-          "value": 4.21,
-          "displayValue": "4.21%"
+          "value": 0.56,
+          "displayValue": "0.56%"
+        }
+      },
+      {
+        "label": "3 Year",
+        "return": {
+          "value": 1.38,
+          "displayValue": "1.38%"
+        }
+      },
+      {
+        "label": "5 Year",
+        "return": {
+          "value": 3.51,
+          "displayValue": "3.51%"
+        }
+      },
+      {
+        "label": "10 Year",
+        "return": {
+          "value": 5.61,
+          "displayValue": "5.61%"
+        }
+      },
+      {
+        "label": "Since Inception",
+        "return": {
+          "value": 7.24,
+          "displayValue": "7.24%"
         }
       }
     ]

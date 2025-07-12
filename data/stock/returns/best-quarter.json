@@ -22,6 +22,17 @@
     },
     "rows": [
       {
+        "period": "Q2-2020",
+        "stockReturn": {
+          "value": 18.34,
+          "displayValue": "18.34%"
+        },
+        "benchmarkReturn": {
+          "value": 14.87,
+          "displayValue": "14.87%"
+        }
+      },
+      {
         "period": "Q1-2023",
         "stockReturn": {
           "value": 4.21,
@@ -30,6 +41,17 @@
         "benchmarkReturn": {
           "value": 4.56,
           "displayValue": "4.56%"
+        }
+      },
+      {
+        "period": "Q3-2021",
+        "stockReturn": {
+          "value": 9.75,
+          "displayValue": "9.75%"
+        },
+        "benchmarkReturn": {
+          "value": -2.43,
+          "displayValue": "-2.43%"
         }
       }
     ]

@@ -9,7 +9,7 @@
           "key": "period"
         },
         {
-          "title": "SBI",
+          "title": "JIO Financial",
           "key": "stockReturn",
           "format": "percent"
         },
@@ -22,14 +22,36 @@
     },
     "rows": [
       {
-        "period": "Q1-2023",
+        "period": "Q1-2020",
         "stockReturn": {
-          "value": 4.21,
-          "displayValue": "4.21%"
+          "value": -25.12,
+          "displayValue": "-25.12%"
         },
         "benchmarkReturn": {
-          "value": 4.56,
-          "displayValue": "4.56%"
+          "value": -23.45,
+          "displayValue": "-23.45%"
+        }
+      },
+      {
+        "period": "Q4-2022",
+        "stockReturn": {
+          "value": -3.78,
+          "displayValue": "-3.78%"
+        },
+        "benchmarkReturn": {
+          "value": 1.24,
+          "displayValue": "1.24%"
+        }
+      },
+      {
+        "period": "Q2-2023",
+        "stockReturn": {
+          "value": 0.00,
+          "displayValue": "0.00%"
+        },
+        "benchmarkReturn": {
+          "value": 2.89,
+          "displayValue": "2.89%"
         }
       }
     ]

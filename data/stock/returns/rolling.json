@@ -9,46 +9,546 @@
         "options": [
           {
             "key": "1Y",
-            "label": "1 Year"
+            "label": "1Y"
+          },
+          {
+            "key": "2Y",
+            "label": "2Y"
+          },
+          {
+            "key": "3Y",
+            "label": "3Y"
           },
           {
             "key": "5Y",
-            "label": "5 Year"
+            "label": "5Y"
+          },
+          {
+            "key": "7Y",
+            "label": "7Y"
+          },
+          {
+            "key": "10Y",
+            "label": "10Y"
           }
         ],
-        "default": "3Y"
+        "default": "1Y"
       }
     },
     "returnsByDuration": {
       "1Y": [
         {
-          "label": "Q1-22",
+          "label": "May-24",
           "return": {
-            "value": 8.21,
-            "displayValue": "8.21%"
+            "value": 4.2345,
+            "displayValue": "4.23%"
           }
         },
         {
-          "label": "Q1-22",
+          "label": "Apr-24",
           "return": {
-            "value": 8.21,
-            "displayValue": "8.21%"
+            "value": -1.1234,
+            "displayValue": "-1.12%"
+          }
+        },
+        {
+          "label": "Mar-24",
+          "return": {
+            "value": 0.0,
+            "displayValue": "0.00%"
+          }
+        },
+        {
+          "label": "Feb-24",
+          "return": {
+            "value": 6.8723,
+            "displayValue": "6.87%"
+          }
+        },
+        {
+          "label": "Jan-24",
+          "return": {
+            "value": 3.991,
+            "displayValue": "3.99%"
+          }
+        },
+        {
+          "label": "Dec-23",
+          "return": {
+            "value": -2.4567,
+            "displayValue": "-2.46%"
+          }
+        },
+        {
+          "label": "Nov-23",
+          "return": {
+            "value": 5.3322,
+            "displayValue": "5.33%"
+          }
+        },
+        {
+          "label": "Oct-23",
+          "return": {
+            "value": 1.002,
+            "displayValue": "1.00%"
+          }
+        },
+        {
+          "label": "Sep-23",
+          "return": {
+            "value": -0.7654,
+            "displayValue": "-0.77%"
+          }
+        },
+        {
+          "label": "Aug-23",
+          "return": {
+            "value": 4.8765,
+            "displayValue": "4.88%"
+          }
+        },
+        {
+          "label": "Jul-23",
+          "return": {
+            "value": 2.49,
+            "displayValue": "2.49%"
+          }
+        },
+        {
+          "label": "Jun-23",
+          "return": {
+            "value": 3.008,
+            "displayValue": "3.01%"
           }
         }
       ],
       "2Y": [
         {
-          "label": "Q1-22",
+          "label": "May-23",
           "return": {
-            "value": 8.21,
-            "displayValue": "8.21%"
+            "value": 2.2211,
+            "displayValue": "2.22%"
           }
         },
         {
-          "label": "Q1-22",
+          "label": "Mar-23",
           "return": {
-            "value": 8.21,
-            "displayValue": "8.21%"
+            "value": 1.3399,
+            "displayValue": "1.34%"
+          }
+        },
+        {
+          "label": "Jan-23",
+          "return": {
+            "value": -3.004,
+            "displayValue": "-3.00%"
+          }
+        },
+        {
+          "label": "Nov-22",
+          "return": {
+            "value": 5.8821,
+            "displayValue": "5.88%"
+          }
+        },
+        {
+          "label": "Sep-22",
+          "return": {
+            "value": 0.0001,
+            "displayValue": "0.00%"
+          }
+        },
+        {
+          "label": "Jul-22",
+          "return": {
+            "value": -1.9987,
+            "displayValue": "-2.00%"
+          }
+        },
+        {
+          "label": "May-22",
+          "return": {
+            "value": 3.4444,
+            "displayValue": "3.44%"
+          }
+        },
+        {
+          "label": "Mar-22",
+          "return": {
+            "value": 7.2233,
+            "displayValue": "7.22%"
+          }
+        },
+        {
+          "label": "Jan-22",
+          "return": {
+            "value": 0.7832,
+            "displayValue": "0.78%"
+          }
+        },
+        {
+          "label": "Nov-21",
+          "return": {
+            "value": -4.122,
+            "displayValue": "-4.12%"
+          }
+        },
+        {
+          "label": "Sep-21",
+          "return": {
+            "value": 2.6789,
+            "displayValue": "2.68%"
+          }
+        },
+        {
+          "label": "Jul-21",
+          "return": {
+            "value": 1.5643,
+            "displayValue": "1.56%"
+          }
+        }
+      ],
+      "3Y": [
+        {
+          "label": "Feb-22",
+          "return": {
+            "value": 3.499,
+            "displayValue": "3.50%"
+          }
+        },
+        {
+          "label": "Nov-21",
+          "return": {
+            "value": 1.003,
+            "displayValue": "1.00%"
+          }
+        },
+        {
+          "label": "Aug-21",
+          "return": {
+            "value": -2.4311,
+            "displayValue": "-2.43%"
+          }
+        },
+        {
+          "label": "May-21",
+          "return": {
+            "value": 4.9902,
+            "displayValue": "4.99%"
+          }
+        },
+        {
+          "label": "Feb-21",
+          "return": {
+            "value": 3.112,
+            "displayValue": "3.11%"
+          }
+        },
+        {
+          "label": "Nov-20",
+          "return": {
+            "value": -1.241,
+            "displayValue": "-1.24%"
+          }
+        },
+        {
+          "label": "Aug-20",
+          "return": {
+            "value": 2.745,
+            "displayValue": "2.75%"
+          }
+        },
+        {
+          "label": "May-20",
+          "return": {
+            "value": 0.0,
+            "displayValue": "0.00%"
+          }
+        },
+        {
+          "label": "Feb-20",
+          "return": {
+            "value": 5.221,
+            "displayValue": "5.22%"
+          }
+        },
+        {
+          "label": "Nov-19",
+          "return": {
+            "value": 6.713,
+            "displayValue": "6.71%"
+          }
+        },
+        {
+          "label": "Aug-19",
+          "return": {
+            "value": 1.992,
+            "displayValue": "1.99%"
+          }
+        },
+        {
+          "label": "May-19",
+          "return": {
+            "value": -3.301,
+            "displayValue": "-3.30%"
+          }
+        }
+      ],
+      "5Y": [
+        {
+          "label": "Dec-20",
+          "return": {
+            "value": 4.45,
+            "displayValue": "4.45%"
+          }
+        },
+        {
+          "label": "Jul-20",
+          "return": {
+            "value": -2.37,
+            "displayValue": "-2.37%"
+          }
+        },
+        {
+          "label": "Feb-20",
+          "return": {
+            "value": 3.93,
+            "displayValue": "3.93%"
+          }
+        },
+        {
+          "label": "Sep-19",
+          "return": {
+            "value": 0.0,
+            "displayValue": "0.00%"
+          }
+        },
+        {
+          "label": "Apr-19",
+          "return": {
+            "value": -4.62,
+            "displayValue": "-4.62%"
+          }
+        },
+        {
+          "label": "Nov-18",
+          "return": {
+            "value": 6.78,
+            "displayValue": "6.78%"
+          }
+        },
+        {
+          "label": "Jun-18",
+          "return": {
+            "value": 2.17,
+            "displayValue": "2.17%"
+          }
+        },
+        {
+          "label": "Jan-18",
+          "return": {
+            "value": -1.89,
+            "displayValue": "-1.89%"
+          }
+        },
+        {
+          "label": "Aug-17",
+          "return": {
+            "value": 5.04,
+            "displayValue": "5.04%"
+          }
+        },
+        {
+          "label": "Mar-17",
+          "return": {
+            "value": 3.67,
+            "displayValue": "3.67%"
+          }
+        },
+        {
+          "label": "Oct-16",
+          "return": {
+            "value": -0.45,
+            "displayValue": "-0.45%"
+          }
+        },
+        {
+          "label": "May-16",
+          "return": {
+            "value": 2.39,
+            "displayValue": "2.39%"
+          }
+        }
+      ],
+      "7Y": [
+        {
+          "label": "Oct-18",
+          "return": {
+            "value": 2.11,
+            "displayValue": "2.11%"
+          }
+        },
+        {
+          "label": "Mar-18",
+          "return": {
+            "value": 0.98,
+            "displayValue": "0.98%"
+          }
+        },
+        {
+          "label": "Aug-17",
+          "return": {
+            "value": -3.72,
+            "displayValue": "-3.72%"
+          }
+        },
+        {
+          "label": "Jan-17",
+          "return": {
+            "value": 4.84,
+            "displayValue": "4.84%"
+          }
+        },
+        {
+          "label": "Jun-16",
+          "return": {
+            "value": 1.59,
+            "displayValue": "1.59%"
+          }
+        },
+        {
+          "label": "Nov-15",
+          "return": {
+            "value": -2.45,
+            "displayValue": "-2.45%"
+          }
+        },
+        {
+          "label": "Apr-15",
+          "return": {
+            "value": 0.0,
+            "displayValue": "0.00%"
+          }
+        },
+        {
+          "label": "Sep-14",
+          "return": {
+            "value": 3.67,
+            "displayValue": "3.67%"
+          }
+        },
+        {
+          "label": "Feb-14",
+          "return": {
+            "value": 1.99,
+            "displayValue": "1.99%"
+          }
+        },
+        {
+          "label": "Jul-13",
+          "return": {
+            "value": -0.89,
+            "displayValue": "-0.89%"
+          }
+        },
+        {
+          "label": "Dec-12",
+          "return": {
+            "value": 6.42,
+            "displayValue": "6.42%"
+          }
+        },
+        {
+          "label": "May-12",
+          "return": {
+            "value": 2.04,
+            "displayValue": "2.04%"
+          }
+        }
+      ],
+      "10Y": [
+        {
+          "label": "Jul-15",
+          "return": {
+            "value": 7.12,
+            "displayValue": "7.12%"
+          }
+        },
+        {
+          "label": "Sep-14",
+          "return": {
+            "value": 6.44,
+            "displayValue": "6.44%"
+          }
+        },
+        {
+          "label": "Nov-13",
+          "return": {
+            "value": 3.65,
+            "displayValue": "3.65%"
+          }
+        },
+        {
+          "label": "Jan-13",
+          "return": {
+            "value": -1.77,
+            "displayValue": "-1.77%"
+          }
+        },
+        {
+          "label": "Mar-12",
+          "return": {
+            "value": 5.88,
+            "displayValue": "5.88%"
+          }
+        },
+        {
+          "label": "May-11",
+          "return": {
+            "value": 2.17,
+            "displayValue": "2.17%"
+          }
+        },
+        {
+          "label": "Jul-10",
+          "return": {
+            "value": -3.42,
+            "displayValue": "-3.42%"
+          }
+        },
+        {
+          "label": "Sep-09",
+          "return": {
+            "value": 0.0,
+            "displayValue": "0.00%"
+          }
+        },
+        {
+          "label": "Nov-08",
+          "return": {
+            "value": 4.36,
+            "displayValue": "4.36%"
+          }
+        },
+        {
+          "label": "Jan-08",
+          "return": {
+            "value": -2.98,
+            "displayValue": "-2.98%"
+          }
+        },
+        {
+          "label": "Mar-07",
+          "return": {
+            "value": 1.12,
+            "displayValue": "1.12%"
+          }
+        },
+        {
+          "label": "May-06",
+          "return": {
+            "value": 3.89,
+            "displayValue": "3.89%"
           }
         }
       ]

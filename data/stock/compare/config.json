@@ -6,12 +6,44 @@
       "durationSelector": {
         "options": [
           {
+            "key": "1W",
+            "label": "1W"
+          },
+          {
+            "key": "1M",
+            "label": "1M"
+          },
+          {
+            "key": "3M",
+            "label": "3M"
+          },
+          {
+            "key": "6M",
+            "label": "6M"
+          },
+          {
             "key": "1Y",
-            "label": "1 Year"
+            "label": "1Y"
+          },
+          {
+            "key": "2Y",
+            "label": "2Y"
+          },
+          {
+            "key": "3Y",
+            "label": "3Y"
           },
           {
             "key": "5Y",
-            "label": "5 Year"
+            "label": "5Y"
+          },
+          {
+            "key": "10Y",
+            "label": "10Y"
+          },
+          {
+            "key": "SI",
+            "label": "SI"
           }
         ],
         "default": "3Y"
@@ -37,6 +69,34 @@
         {
           "duration": "3 Months",
           "key": "3M"
+        },
+        {
+          "duration": "6 Months",
+          "key": "6M"
+        },
+        {
+          "duration": "1 Year",
+          "key": "1Y"
+        },
+        {
+          "duration": "2 Year",
+          "key": "2Y"
+        },
+        {
+          "duration": "3 Year",
+          "key": "3Y"
+        },
+        {
+          "duration": "5 Year",
+          "key": "5Y"
+        },
+        {
+          "duration": "10 Year",
+          "key": "10Y"
+        },
+        {
+          "duration": "Since Inception",
+          "key": "SI"
         }
       ]
     }
