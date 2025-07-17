@@ -1,0 +1,94 @@
+{
+  "code": "1",
+  "message": "",
+  "data": {
+    "section_id": "37",
+    "datalist": [
+      {
+        "heading": "Earnings",
+        "trendingVariant": 1,
+        "deeplink": "",
+        "list": [
+          {
+            "stockName": "",
+            "scId": "",
+            "tag": "",
+            "ltp": "",
+            "period": "",
+            "deeplink": ""
+          }
+        ]
+      },
+      {
+        "heading": "Economic",
+        "trendingVariant": 2,
+        "deeplink": "",
+        "list": [
+          {
+            "fullDate": "",
+            "time": "",
+            "flagUrl": "",
+            "eventName": "",
+            "act": "",
+            "consens": "",
+            "deeplink": ""
+          }
+        ]
+      },
+      {
+        "heading": "Corporate",
+        "trendingVariant": 3,
+        "deeplink": "",
+        "list": [
+          {
+            "tag": "",
+            "scId": "",
+            "corporate_tag": "",
+            "stockName": "",
+            "details": [
+              {
+                "title": "Ratio:",
+                "value": "1:15"
+              },
+              {
+                "title": "Premium:",
+                "value": "$1,247"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "IPO",
+        "trendingVariant": 4,
+        "deeplink": "",
+        "list": [
+          {
+            "ipo_status": "",
+            "company_name": "",
+            "open_date": "",
+            "close_date": "",
+            "from_issue_price": "",
+            "to_issue_price": "",
+            "deeplink": ""
+          }
+        ]
+      },
+      {
+        "heading": "New Listing",
+        "trendingVariant": 5,
+        "deeplink_url": "",
+        "list": [
+          {
+            "sc_id": "",
+            "company_name": "",
+            "last_price": "",
+            "chgper": "",
+            "issue_price": "",
+            "deeplink": ""
+          }
+        ]
+      }
+    ]
+  }
+}
