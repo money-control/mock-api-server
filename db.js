@@ -11,6 +11,7 @@ const stockReturnRolling = require('./data/stock/returns/rolling.json');
 const stockSIPReturn = require('./data/stock/returns/sip.json');
 const stockCompareConfig = require('./data/stock/compare/config.json');
 const stockCompareData = require('./data/stock/compare/data.json');
+const homeTrendingData = require('./data/home/trending/data.json');
 
 module.exports = {
   funds,
@@ -24,6 +25,7 @@ module.exports = {
   stockReturnRolling,
   stockSIPReturn,
   stockCompareConfig,
-  stockCompareData
+  stockCompareData,
+  homeTrendingData
 };
 
