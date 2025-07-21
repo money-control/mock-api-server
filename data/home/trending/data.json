@@ -10,11 +10,35 @@
         "deeplink": "",
         "list": [
           {
-            "stockName": "",
+            "stockName": "Reliance Industries",
             "scId": "",
-            "tag": "",
-            "ltp": "",
-            "period": "",
+            "tag": "Today",
+            "ltp": "$2,695",
+            "period": "Q2-2024",
+            "deeplink": ""
+          },
+          {
+            "stockName": "TCS",
+            "scId": "",
+            "tag": "Tomorrow",
+            "ltp": "$4,695",
+            "period": "Q2-2014",
+            "deeplink": ""
+          },
+          {
+            "stockName": "Infosys",
+            "scId": "",
+            "tag": "Today",
+            "ltp": "$2,695",
+            "period": "Q2-2024",
+            "deeplink": ""
+          },
+          {
+            "stockName": "MRF",
+            "scId": "",
+            "tag": "Today",
+            "ltp": "$2,695",
+            "period": "Q2-2024",
             "deeplink": ""
           }
         ]
@@ -25,12 +49,30 @@
         "deeplink": "",
         "list": [
           {
-            "fullDate": "",
-            "time": "",
-            "flagUrl": "",
-            "eventName": "",
-            "act": "",
-            "consens": "",
+            "fullDate": "Oct 10. 2024",
+            "time": "18:00",
+            "flagUrl": "https://images.moneycontrol.com/images/flags/india.jpg",
+            "eventName": "Core CPI(Mom) (Sep)",
+            "act": "2.44",
+            "consens": "3.9%",
+            "deeplink": ""
+          },
+          {
+            "fullDate": "Oct 10. 2024",
+            "time": "18:00",
+            "flagUrl": "https://images.moneycontrol.com/images/flags/india.jpg",
+            "eventName": "Core(Sep)",
+            "act": "2.44",
+            "consens": "--",
+            "deeplink": ""
+          },
+          {
+            "fullDate": "Oct 10. 2024",
+            "time": "18:00",
+            "flagUrl": "https://images.moneycontrol.com/images/flags/india.jpg",
+            "eventName": "Events",
+            "act": "2.44",
+            "consens": "3.9%",
             "deeplink": ""
           }
         ]
@@ -41,10 +83,26 @@
         "deeplink": "",
         "list": [
           {
-            "tag": "",
+            "tag": "Tomorrow",
             "scId": "",
-            "corporate_tag": "",
-            "stockName": "",
+            "corporate_tag": "Bonus",
+            "stockName": "Reliance Industries",
+            "details": [
+              {
+                "title": "CMP:",
+                "value": "$2,567"
+              },
+              {
+                "title": "Premium:",
+                "value": "$1,247"
+              }
+            ]
+          },
+          {
+            "tag": "Tomorrow",
+            "scId": "",
+            "corporate_tag": "Rights",
+            "stockName": "Reliance Industries",
             "details": [
               {
                 "title": "Ratio:",
@@ -64,12 +122,21 @@
         "deeplink": "",
         "list": [
           {
-            "ipo_status": "",
-            "company_name": "",
-            "open_date": "",
-            "close_date": "",
-            "from_issue_price": "",
-            "to_issue_price": "",
+            "ipo_status": "Open",
+            "company_name": "Waaree Energies Ltd",
+            "open_date": "21/10/24",
+            "close_date": "23/10/24",
+            "from_issue_price": "$1,427",
+            "to_issue_price": "$1,503",
+            "deeplink": ""
+          },
+          {
+            "ipo_status": "Upcoming",
+            "company_name": "Waaree Energies Ltd",
+            "open_date": "21/10/24",
+            "close_date": "23/10/24",
+            "from_issue_price": "$1,427",
+            "to_issue_price": "$1,503",
             "deeplink": ""
           }
         ]
@@ -81,10 +148,20 @@
         "list": [
           {
             "sc_id": "",
-            "company_name": "",
-            "last_price": "",
-            "chgper": "",
-            "issue_price": "",
+            "company_name": "Hyundai Motor",
+            "last_price": "$2.456",
+            "chg": "213",
+            "chgper": "1.33%",
+            "issue_price": "$1,960",
+            "deeplink": ""
+          },
+          {
+            "sc_id": "",
+            "company_name": "Tata Motors",
+            "last_price": "$2.456",
+            "chg": "26",
+            "chgper": "-1.33%",
+            "issue_price": "$1,960",
             "deeplink": ""
           }
         ]
