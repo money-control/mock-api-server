@@ -1,7 +1,6 @@
 // db.js
-const funds = require('./data/funds.json');
-const users = require('./data/users.json');
-const orders = require('./data/orders.json');
+
+const users = require('./data/users.json'); //example
 const stockReturnTypes = require('./data/stock/returns/types.json');
 const stockReturnAbsolute = require('./data/stock/returns/absolute.json');
 const stockReturnAnnualised = require('./data/stock/returns/annualised.json');
@@ -14,9 +13,7 @@ const stockCompareData = require('./data/stock/compare/data.json');
 const homeTrendingData = require('./data/home/trending/data.json');
 
 module.exports = {
-  funds,
   users,
-  orders,
   stockReturnTypes,
   stockReturnAbsolute,
   stockReturnAnnualised,
