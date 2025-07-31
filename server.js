@@ -91,6 +91,9 @@ server.get('/stock/returns', (req, res) => {
   return res.status(200).json(data);
 });
 
+server.get('/pro-stock-list/config', (req, res) => {
+  return res.status(200).json(router.db.get('proStockListConfig').value());
+});
 
 server.use(router);
 

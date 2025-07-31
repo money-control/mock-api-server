@@ -1,0 +1,940 @@
+{
+    "success": 1,
+    "data": {
+        "tabs": [
+            {
+                "name": "",
+                "tabViewType":"WITH_INFO",
+                "subTabs": [
+                    {
+                        "name": "High Potential Upside",
+                        "info": "Lorem Ipsum",
+                        "url": "https://api.moneycontrol.com/proStockList/highPotentialUpside?deviceType=A",
+                        "apiIdentifier": 100,
+                        "apiType": "JSON",
+                        "defaultSub": true,
+                        "id": 1,
+                        "headers": {
+                            "title": {
+                                "label": "1 Year Return",
+                                "appends": "yearlyReturn"
+                            },
+                            "subTitle": {
+                                "label": "Last updated: ",
+                                "appends": "updatedAt"
+                            },
+                            "options": [
+                                {
+                                    "type": "dropdown",
+                                    "url": "https://api.moneycontrol.com/exchangeTabs",
+                                    "apiIdentifier": 101,
+                                    "apiType": "JSON"
+                                }
+                            ]
+                        },
+                        "tableHeaders": [
+                            {
+                                "headerType": 1,
+                                "name": "Stock Name",
+                                "align": "Left",
+                                "sortParam": 0,
+                                "isFilterable": false,
+                                "position": 0,
+                                "flex": 1
+                            },
+                            {
+                                "headerType": 1,
+                                "name": "Price Forecast Upside %",
+                                "align": "Right",
+                                "sortParam": 0,
+                                "isFilterable": false,
+                                "position": 1,
+                                "flex": 1
+                            },
+                            {
+                                "headerType": 1,
+                                "name": "Price Chg %",
+                                "align": "Right",
+                                "sortParam": 0,
+                                "isFilterable": false,
+                                "position": 2,
+                                "flex": 1
+                            }
+                        ],
+                        "tableFooters": "* This is average of one year return of all stocks",
+                        "showDataModelObj": [
+                            [
+                                [
+                                    "scId",
+                                    "exchange",
+                                    "actionUrl",
+                                    "displayLock",
+                                    "lockFlag",
+                                    "tabId"
+                                ],
+                                [
+                                    "stockName",
+                                    "analysisCTA"
+                                ],
+                                [
+                                    "priceUpdateDirection",
+                                    "price",
+                                    "change",
+                                    "per_change"
+                                ],
+                                [
+                                    "priceUpdateDirection",
+                                    "price",
+                                    "change",
+                                    "per_change"
+                                ]
+                            ]
+                        ],
+                        "cellFormat": [
+                            1,
+                            2,
+                            2
+                        ]
+                    },
+                    {
+                        "name": "Analyst Favorite",
+                        "info": "Lorem Ipsum",
+                        "url": "https://api.moneycontrol.com/proStockList/analystFavorite?deviceType=A",
+                        "apiIdentifier": 200,
+                        "apiType": "PROTO",
+                        "defaultSub": false,
+                        "id": 2,
+                        "headers": {
+                            "title": {
+                                "label": "1 Year Return",
+                                "appends": "yearlyReturn"
+                            },
+                            "subTitle": {
+                                "label": "Last updated: ",
+                                "appends": "updatedAt"
+                            },
+                            "options": [
+                                {
+                                    "type": "dropdown",
+                                    "url": "https://api.moneycontrol.com/exchangeTabs",
+                                    "apiIdentifier": 101,
+                                    "apiType": "JSON"
+                                }
+                            ]
+                        },
+                        "tableHeaders": [
+                            {
+                                "headerType": 1,
+                                "name": "Stock Name",
+                                "align": "Left",
+                                "sortParam": 0,
+                                "isFilterable": false,
+                                "position": 0,
+                                "flex": 1
+                            },
+                            {
+                                "headerType": 1,
+                                "name": "No. of Analyst",
+                                "align": "Right",
+                                "sortParam": 0,
+                                "isFilterable": false,
+                                "position": 1,
+                                "flex": 1
+                            },
+                            {
+                                "headerType": 1,
+                                "name": "Price Chg %",
+                                "align": "Right",
+                                "sortParam": 0,
+                                "isFilterable": false,
+                                "position": 2,
+                                "flex": 1
+                            }
+                        ],
+                        "tableFooters": "* This is average of one year return of all stocks",
+                        "showDataModelObj": [
+                            [
+                                [
+                                    "scId",
+                                    "exchange",
+                                    "actionUrl",
+                                    "displayLock",
+                                    "lockFlag",
+                                    "tabId"
+                                ],
+                                [
+                                    "stockName",
+                                    "analysisCTA"
+                                ],
+                                [
+                                    "noOfAnalyst"
+                                ],
+                                [
+                                    "priceUpdateDirection",
+                                    "price",
+                                    "change",
+                                    "per_change"
+                                ]
+                            ]
+                        ],
+                        "cellFormat": [
+                            1,
+                            3,
+                            2
+                        ]
+                    },
+                    {
+                        "name": "Top Buy Rating",
+                        "info": "Lorem Ipsum",
+                        "url": "https://api.moneycontrol.com/proStockList/topBuyRating?deviceType=A",
+                        "apiIdentifier": 300,
+                        "apiType": "JSON",
+                        "defaultSub": false,
+                        "id": 3,
+                        "headers": {
+                            "title": {
+                                "label": "1 Year Return",
+                                "appends": "yearlyReturn"
+                            },
+                            "subTitle": {
+                                "label": "Last updated: ",
+                                "appends": "updatedAt"
+                            },
+                            "options": [
+                                {
+                                    "type": "dropdown",
+                                    "url": "https://api.moneycontrol.com/exchangeTabs",
+                                    "apiIdentifier": 101,
+                                    "apiType": "JSON"
+                                }
+                            ]
+                        },
+                        "tableHeaders": [
+                            {
+                                "headerType": 1,
+                                "name": "Stock Name",
+                                "align": "Left",
+                                "sortParam": 0,
+                                "isFilterable": false,
+                                "position": 0,
+                                "flex": 1
+                            },
+                            {
+                                "headerType": 1,
+                                "name": "No. of Buys",
+                                "align": "Right",
+                                "sortParam": 0,
+                                "isFilterable": false,
+                                "position": 1,
+                                "flex": 1
+                            },
+                            {
+                                "headerType": 1,
+                                "name": "Price Chg %",
+                                "align": "Right",
+                                "sortParam": 0,
+                                "isFilterable": false,
+                                "position": 2,
+                                "flex": 1
+                            }
+                        ],
+                        "tableFooters": "* This is average of one year return of all stocks",
+                        "showDataModelObj": [
+                            [
+                                [
+                                    "scId",
+                                    "exchange",
+                                    "actionUrl",
+                                    "displayLock",
+                                    "lockFlag",
+                                    "tabId"
+                                ],
+                                [
+                                    "stockName",
+                                    "analysisCTA"
+                                ],
+                                [
+                                    "noOfBuys"
+                                ],
+                                [
+                                    "priceUpdateDirection",
+                                    "price",
+                                    "change",
+                                    "per_change"
+                                ]
+                            ]
+                        ],
+                        "cellFormat": [
+                            1,
+                            3,
+                            2
+                        ]
+                    },
+                    {
+                        "name": "Green Energy Stars",
+                        "info": "Lorem Ipsum",
+                        "url": "https://api.moneycontrol.com/proStockList/greenEnergyStars?deviceType=A",
+                        "apiIdentifier": 400,
+                        "apiType": "JSON",
+                        "defaultSub": false,
+                        "id": 4,
+                        "headers": {
+                            "title": {
+                                "label": "1 Year Return",
+                                "appends": "yearlyReturn"
+                            },
+                            "subTitle": {
+                                "label": "Last updated: ",
+                                "appends": "updatedAt"
+                            }
+                        },
+                        "tableHeaders": [
+                            {
+                                "headerType": 1,
+                                "name": "Stock Name",
+                                "align": "Left",
+                                "sortParam": 0,
+                                "isFilterable": false,
+                                "position": 0,
+                                "flex": 1
+                            },
+                            {
+                                "headerType": 1,
+                                "name": "Price Chg %",
+                                "align": "Right",
+                                "sortParam": 0,
+                                "isFilterable": false,
+                                "position": 1,
+                                "flex": 1
+                            }
+                        ],
+                        "tableFooters": "* This is average of one year return of all stocks",
+                        "showDataModelObj": [
+                            [
+                                [
+                                    "scId",
+                                    "exchange",
+                                    "actionUrl",
+                                    "displayLock",
+                                    "lockFlag",
+                                    "tabId"
+                                ],
+                                [
+                                    "stockName",
+                                    "analysisCTA"
+                                ],
+                                [
+                                    "priceUpdateDirection",
+                                    "price",
+                                    "change",
+                                    "per_change"
+                                ]
+                            ]
+                        ],
+                        "cellFormat": [
+                            1,
+                            2
+                        ]
+                    },
+                    {
+                        "name": "EV Leaders",
+                        "info": "Lorem Ipsum",
+                        "url": "https://api.moneycontrol.com/proStockList/evLeaders?deviceType=A",
+                        "apiIdentifier": 500,
+                        "apiType": "JSON",
+                        "defaultSub": false,
+                        "id": 5,
+                        "headers": {
+                            "title": {
+                                "label": "1 Year Return",
+                                "appends": "yearlyReturn"
+                            },
+                            "subTitle": {
+                                "label": "Last updated: ",
+                                "appends": "updatedAt"
+                            }
+                        },
+                        "tableHeaders": [
+                            {
+                                "headerType": 1,
+                                "name": "Stock Name",
+                                "align": "Left",
+                                "sortParam": 0,
+                                "isFilterable": false,
+                                "position": 0,
+                                "flex": 1
+                            },
+                            {
+                                "headerType": 1,
+                                "name": "Price Chg %",
+                                "align": "Right",
+                                "sortParam": 0,
+                                "isFilterable": false,
+                                "position": 1,
+                                "flex": 1
+                            }
+                        ],
+                        "tableFooters": "* This is average of one year return of all stocks",
+                        "showDataModelObj": [
+                            [
+                                [
+                                    "scId",
+                                    "exchange",
+                                    "actionUrl",
+                                    "displayLock",
+                                    "lockFlag",
+                                    "tabId"
+                                ],
+                                [
+                                    "stockName",
+                                    "analysisCTA"
+                                ],
+                                [
+                                    "priceUpdateDirection",
+                                    "price",
+                                    "change",
+                                    "per_change"
+                                ]
+                            ]
+                        ],
+                        "cellFormat": [
+                            1,
+                            2
+                        ]
+                    },
+                    {
+                        "name": "Defence Guardians",
+                        "info": "Lorem Ipsum",
+                        "url": "https://api.moneycontrol.com/proStockList/defenceGuardians?deviceType=A",
+                        "apiIdentifier": 600,
+                        "id": 6,
+                        "apiType": "JSON",
+                        "defaultSub": false,
+                        "headers": {
+                            "title": {
+                                "label": "1 Year Return",
+                                "appends": "yearlyReturn"
+                            },
+                            "subTitle": {
+                                "label": "Last updated: ",
+                                "appends": "updatedAt"
+                            }
+                        },
+                        "tableHeaders": [
+                            {
+                                "headerType": 1,
+                                "name": "Stock Name",
+                                "align": "Left",
+                                "sortParam": 0,
+                                "isFilterable": false,
+                                "position": 0,
+                                "flex": 1
+                            },
+                            {
+                                "headerType": 1,
+                                "name": "Price Chg %",
+                                "align": "Right",
+                                "sortParam": 0,
+                                "isFilterable": false,
+                                "position": 1,
+                                "flex": 1
+                            }
+                        ],
+                        "tableFooters": "* This is average of one year return of all stocks",
+                        "showDataModelObj": [
+                            [
+                                [
+                                    "scId",
+                                    "exchange",
+                                    "actionUrl",
+                                    "displayLock",
+                                    "lockFlag",
+                                    "tabId"
+                                ],
+                                [
+                                    "stockName",
+                                    "analysisCTA"
+                                ],
+                                [
+                                    "priceUpdateDirection",
+                                    "price",
+                                    "change",
+                                    "per_change"
+                                ]
+                            ]
+                        ],
+                        "cellFormat": [
+                            1,
+                            2
+                        ]
+                    },
+                    {
+                        "name": "F Score Leaders",
+                        "info": "Lorem Ipsum",
+                        "url": "https://api.moneycontrol.com/proStockList/fScoreLeaders?deviceType=A",
+                        "apiIdentifier": 700,
+                        "id": 7,
+                        "apiType": "JSON",
+                        "defaultSub": false,
+                        "headers": {
+                            "title": {
+                                "label": "1 Year Return",
+                                "appends": "yearlyReturn"
+                            },
+                            "subTitle": {
+                                "label": "Last updated: ",
+                                "appends": "updatedAt"
+                            },
+                            "options": [
+                                {
+                                    "type": "dropdown",
+                                    "url": "https://api.moneycontrol.com/exchangeTabs",
+                                    "apiIdentifier": 101,
+                                    "apiType": "JSON"
+                                }
+                            ]
+                        },
+                        "tableHeaders": [
+                            {
+                                "headerType": 1,
+                                "name": "Stock Name",
+                                "align": "Left",
+                                "sortParam": 0,
+                                "isFilterable": false,
+                                "position": 0,
+                                "flex": 1
+                            },
+                            {
+                                "headerType": 1,
+                                "name": "Piotroski Score",
+                                "align": "Right",
+                                "sortParam": 0,
+                                "isFilterable": false,
+                                "position": 1,
+                                "flex": 1
+                            },
+                            {
+                                "headerType": 1,
+                                "name": "Price Chg %",
+                                "align": "Right",
+                                "sortParam": 0,
+                                "isFilterable": false,
+                                "position": 2,
+                                "flex": 1
+                            }
+                        ],
+                        "tableFooters": "* This is average of one year return of all stocks",
+                        "showDataModelObj": [
+                            [
+                                [
+                                    "scId",
+                                    "exchange",
+                                    "actionUrl",
+                                    "displayLock",
+                                    "lockFlag",
+                                    "tabId"
+                                ],
+                                [
+                                    "stockName",
+                                    "analysisCTA"
+                                ],
+                                [
+                                    "piotroskiScore"
+                                ],
+                                [
+                                    "priceUpdateDirection",
+                                    "price",
+                                    "change",
+                                    "per_change"
+                                ]
+                            ]
+                        ],
+                        "cellFormat": [
+                            1,
+                            3,
+                            2
+                        ]
+                    },
+                    {
+                        "name": "Turnaround Stocks",
+                        "info": "Lorem Ipsum",
+                        "url": "https://api.moneycontrol.com/proStockList/turnAroundStocks?deviceType=A",
+                        "apiIdentifier": 800,
+                        "id": 8,
+                        "apiType": "JSON",
+                        "defaultSub": false,
+                        "headers": {
+                            "title": {
+                                "label": "1 Year Return",
+                                "appends": "yearlyReturn"
+                            },
+                            "subTitle": {
+                                "label": "Last updated: ",
+                                "appends": "updatedAt"
+                            }
+                        },
+                        "tableHeaders": [
+                            {
+                                "headerType": 1,
+                                "name": "Stock Name",
+                                "align": "Left",
+                                "sortParam": 0,
+                                "isFilterable": false,
+                                "position": 0,
+                                "flex": 1
+                            },
+                            {
+                                "headerType": 1,
+                                "name": "Latest Qtr. Profit(Cr)\nPrev. Qtr. Profit(Cr)",
+                                "align": "Right",
+                                "sortParam": 0,
+                                "isFilterable": false,
+                                "position": 1,
+                                "flex": 1
+                            },
+                            {
+                                "headerType": 1,
+                                "name": "Price Chg %",
+                                "align": "Right",
+                                "sortParam": 0,
+                                "isFilterable": false,
+                                "position": 2,
+                                "flex": 1
+                            }
+                        ],
+                        "tableFooters": "* This is average of one year return of all stocks",
+                        "showDataModelObj": [
+                            [
+                                [
+                                    "scId",
+                                    "exchange",
+                                    "actionUrl",
+                                    "displayLock",
+                                    "lockFlag",
+                                    "tabId"
+                                ],
+                                [
+                                    "stockName",
+                                    "analysisCTA"
+                                ],
+                                [
+                                    "latestQtrProfit",
+                                    "prevQtrProfit"
+                                ],
+                                [
+                                    "priceUpdateDirection",
+                                    "price",
+                                    "change",
+                                    "per_change"
+                                ]
+                            ]
+                        ],
+                        "cellFormat": [
+                            1,
+                            3,
+                            2
+                        ]
+                    },
+                    {
+                        "name": "Profit Blasters",
+                        "info": "Lorem Ipsum",
+                        "url": "https://api.moneycontrol.com/proStockList/profitBlasters?deviceType=A",
+                        "apiIdentifier": 900,
+                        "id": 9,
+                        "apiType": "JSON",
+                        "defaultSub": false,
+                        "headers": {
+                            "title": {
+                                "label": "1 Year Return",
+                                "appends": "yearlyReturn"
+                            },
+                            "subTitle": {
+                                "label": "Last updated: ",
+                                "appends": "updatedAt"
+                            }
+                        },
+                        "tableHeaders": [
+                            {
+                                "headerType": 1,
+                                "name": "Stock Name",
+                                "align": "Left",
+                                "sortParam": 0,
+                                "isFilterable": false,
+                                "position": 0,
+                                "flex": 1
+                            },
+                            {
+                                "headerType": 1,
+                                "name": "YOY Profit Growth %",
+                                "align": "Right",
+                                "sortParam": 0,
+                                "isFilterable": false,
+                                "position": 1,
+                                "flex": 1
+                            },
+                            {
+                                "headerType": 1,
+                                "name": "Price Chg %",
+                                "align": "Right",
+                                "sortParam": 0,
+                                "isFilterable": false,
+                                "position": 2,
+                                "flex": 1
+                            }
+                        ],
+                        "tableFooters": "* This is average of one year return of all stocks",
+                        "showDataModelObj": [
+                            [
+                                [
+                                    "scId",
+                                    "exchange",
+                                    "actionUrl",
+                                    "displayLock",
+                                    "lockFlag",
+                                    "tabId"
+                                ],
+                                [
+                                    "stockName",
+                                    "analysisCTA"
+                                ],
+                                [
+                                    "yoyProfitGrowthPer"
+                                ],
+                                [
+                                    "priceUpdateDirection",
+                                    "price",
+                                    "change",
+                                    "per_change"
+                                ]
+                            ]
+                        ],
+                        "cellFormat": [
+                            1,
+                            3,
+                            2
+                        ]
+                    },
+                    {
+                        "name": "Top Deal Makers",
+                        "info": "Lorem Ipsum",
+                        "url": "https://api.moneycontrol.com/proStockList/topDealMakers?deviceType=A",
+                        "apiIdentifier": 1000,
+                        "id": 10,
+                        "apiType": "JSON",
+                        "defaultSub": false,
+                        "headers": {
+                            "title": {
+                                "label": "1 Year Return",
+                                "appends": "yearlyReturn"
+                            },
+                            "subTitle": {
+                                "label": "Last updated: ",
+                                "appends": "updatedAt"
+                            }
+                        },
+                        "tableHeaders": [
+                            {
+                                "headerType": 1,
+                                "name": "Stock Name",
+                                "align": "Left",
+                                "sortParam": 0,
+                                "isFilterable": false,
+                                "position": 0,
+                                "flex": 1
+                            },
+                            {
+                                "headerType": 1,
+                                "name": "Deal Value (Cr.)\nNo. of Deals",
+                                "align": "Right",
+                                "sortParam": 0,
+                                "isFilterable": false,
+                                "position": 1,
+                                "flex": 1
+                            },
+                            {
+                                "headerType": 1,
+                                "name": "Price Chg %",
+                                "align": "Right",
+                                "sortParam": 0,
+                                "isFilterable": false,
+                                "position": 2,
+                                "flex": 1
+                            }
+                        ],
+                        "tableFooters": "* This is average of one year return of all stocks",
+                        "showDataModelObj": [
+                            [
+                                [
+                                    "scId",
+                                    "exchange"
+                                ],
+                                [
+                                    "stockName",
+                                    "callType",
+                                    "callLabel"
+                                ],
+                                [
+                                    "dealValue",
+                                    "noOfDeals"
+                                ],
+                                [
+                                    "priceUpdateDirection",
+                                    "price",
+                                    "change",
+                                    "per_change"
+                                ]
+                            ]
+                        ],
+                        "cellFormat": [
+                            4,
+                            3,
+                            2
+                        ]
+                    },
+                    {
+                        "name": "Turning Bullish",
+                        "info": "Lorem Ipsum",
+                        "url": "https://api.moneycontrol.com/proStockList/turningBullish?deviceType=A",
+                        "apiIdentifier": 1100,
+                        "id": 11,
+                        "apiType": "JSON",
+                        "defaultSub": false,
+                        "headers": {
+                            "title": {
+                                "label": "1 Year Return",
+                                "appends": "yearlyReturn"
+                            },
+                            "subTitle": {
+                                "label": "Last updated: ",
+                                "appends": "updatedAt"
+                            },
+                            "options": [
+                                {
+                                    "type": "dropdown",
+                                    "url": "https://api.moneycontrol.com/exchangeTabs",
+                                    "apiIdentifier": 101,
+                                    "apiType": "JSON"
+                                }
+                            ]
+                        },
+                        "tableHeaders": [
+                            {
+                                "headerType": 1,
+                                "name": "Stock Name",
+                                "align": "Left",
+                                "sortParam": 0,
+                                "isFilterable": false,
+                                "position": 0,
+                                "flex": 1
+                            },
+                            {
+                                "headerType": 1,
+                                "name": "Price Chg %",
+                                "align": "Right",
+                                "sortParam": 0,
+                                "isFilterable": false,
+                                "position": 1,
+                                "flex": 1
+                            }
+                        ],
+                        "tableFooters": "* This is average of one year return of all stocks",
+                        "showDataModelObj": [
+                            [
+                                [
+                                    "scId",
+                                    "exchange"
+                                ],
+                                [
+                                    "stockName",
+                                    "trendChangeDateTime"
+                                ],
+                                [
+                                    "priceUpdateDirection",
+                                    "price",
+                                    "change",
+                                    "per_change"
+                                ]
+                            ]
+                        ],
+                        "cellFormat": [
+                            5,
+                            3,
+                            2
+                        ]
+                    },
+                    {
+                        "name": "Turning Bearish",
+                        "info": "Lorem Ipsum",
+                        "url": "https://api.moneycontrol.com/proStockList/turningBearish?deviceType=A",
+                        "apiIdentifier": 1200,
+                        "id": 12,
+                        "apiType": "JSON",
+                        "defaultSub": false,
+                        "headers": {
+                            "title": {
+                                "label": "1 Year Return",
+                                "appends": "yearlyReturn"
+                            },
+                            "subTitle": {
+                                "label": "Last updated: ",
+                                "appends": "updatedAt"
+                            },
+                            "options": [
+                                {
+                                    "type": "dropdown",
+                                    "url": "https://api.moneycontrol.com/exchangeTabs",
+                                    "apiIdentifier": 101,
+                                    "apiType": "JSON"
+                                }
+                            ]
+                        },
+                        "tableHeaders": [
+                            {
+                                "headerType": 1,
+                                "name": "Stock Name",
+                                "align": "Left",
+                                "sortParam": 0,
+                                "isFilterable": false,
+                                "position": 0,
+                                "flex": 1
+                            },
+                            {
+                                "headerType": 1,
+                                "name": "Price Chg %",
+                                "align": "Right",
+                                "sortParam": 0,
+                                "isFilterable": false,
+                                "position": 1,
+                                "flex": 1
+                            }
+                        ],
+                        "tableFooters": "* This is average of one year return of all stocks",
+                        "showDataModelObj": [
+                            [
+                                [
+                                    "scId",
+                                    "exchange"
+                                ],
+                                [
+                                    "stockName",
+                                    "trendChangeDateTime"
+                                ],
+                                [
+                                    "priceUpdateDirection",
+                                    "price",
+                                    "change",
+                                    "per_change"
+                                ]
+                            ]
+                        ],
+                        "cellFormat": [
+                            5,
+                            3,
+                            2
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
