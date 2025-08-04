@@ -4,19 +4,19 @@
         "tabs": [
             {
                 "name": "",
-                "tabViewType":"WITH_INFO",
+                "tabViewType": "WITH_INFO",
                 "subTabs": [
                     {
                         "name": "High Potential Upside",
-                        "info": "Lorem Ipsum",
+                        "info": "Stocks with higher upside potential",
                         "url": "https://api.moneycontrol.com/proStockList/highPotentialUpside?deviceType=A",
                         "apiIdentifier": 100,
-                        "apiType": "JSON",
+                        "apiType": "PROTO",
                         "defaultSub": true,
                         "id": 1,
                         "headers": {
                             "title": {
-                                "label": "1 Year Return",
+                                "label": "1 Year Return*",
                                 "appends": "yearlyReturn"
                             },
                             "subTitle": {
@@ -44,7 +44,7 @@
                             },
                             {
                                 "headerType": 1,
-                                "name": "Price Forecast Upside %",
+                                "name": "Price Forecast\nUpside %",
                                 "align": "Right",
                                 "sortParam": 0,
                                 "isFilterable": false,
@@ -53,7 +53,7 @@
                             },
                             {
                                 "headerType": 1,
-                                "name": "Price Chg %",
+                                "name": "Price\nChg %",
                                 "align": "Right",
                                 "sortParam": 0,
                                 "isFilterable": false,
@@ -74,7 +74,8 @@
                                 ],
                                 [
                                     "stockName",
-                                    "analysisCTA"
+                                    "displayLock",
+                                    "lockFlag"
                                 ],
                                 [
                                     "priceUpdateDirection",
@@ -97,16 +98,16 @@
                         ]
                     },
                     {
-                        "name": "Analyst Favorite",
-                        "info": "Lorem Ipsum",
-                        "url": "https://api.moneycontrol.com/proStockList/analystFavorite?deviceType=A",
-                        "apiIdentifier": 200,
-                        "apiType": "PROTO",
+                        "name": "Analyst’s Favourite",
+                        "info": "Stocks recommended by highest number of Analysts",
+                        "url": "https://stgapi.moneycontrol.com/swiftapi/v1/prostockslist/getlist?section=analysts&start=0&limit=20&deviceType=A&responseType=decode",
+                        "apiIdentifier": 100,
+                        "apiType": "JSON",
                         "defaultSub": false,
                         "id": 2,
                         "headers": {
                             "title": {
-                                "label": "1 Year Return",
+                                "label": "1 Year Return*",
                                 "appends": "yearlyReturn"
                             },
                             "subTitle": {
@@ -134,7 +135,7 @@
                             },
                             {
                                 "headerType": 1,
-                                "name": "No. of Analyst",
+                                "name": "No. of Analyst's",
                                 "align": "Right",
                                 "sortParam": 0,
                                 "isFilterable": false,
@@ -143,7 +144,7 @@
                             },
                             {
                                 "headerType": 1,
-                                "name": "Price Chg %",
+                                "name": "Price\nChg %",
                                 "align": "Right",
                                 "sortParam": 0,
                                 "isFilterable": false,
@@ -156,24 +157,24 @@
                             [
                                 [
                                     "scId",
-                                    "exchange",
+                                    "ex",
                                     "actionUrl",
                                     "displayLock",
                                     "lockFlag",
                                     "tabId"
                                 ],
                                 [
-                                    "stockName",
-                                    "analysisCTA"
+                                    "stkName",
+                                    "displayLock",
+                                    "lockFlag"
                                 ],
                                 [
-                                    "noOfAnalyst"
+                                    "analystCount"
                                 ],
                                 [
-                                    "priceUpdateDirection",
-                                    "price",
-                                    "change",
-                                    "per_change"
+                                    "ltp",
+                                    "priceChange",
+                                    "pricePercentChange"
                                 ]
                             ]
                         ],
@@ -185,15 +186,15 @@
                     },
                     {
                         "name": "Top Buy Rating",
-                        "info": "Lorem Ipsum",
+                        "info": "Stocks with Buy rating given by maximum number of Analysts",
                         "url": "https://api.moneycontrol.com/proStockList/topBuyRating?deviceType=A",
-                        "apiIdentifier": 300,
-                        "apiType": "JSON",
+                        "apiIdentifier": 100,
+                        "apiType": "PROTO",
                         "defaultSub": false,
                         "id": 3,
                         "headers": {
                             "title": {
-                                "label": "1 Year Return",
+                                "label": "1 Year Return*",
                                 "appends": "yearlyReturn"
                             },
                             "subTitle": {
@@ -230,7 +231,7 @@
                             },
                             {
                                 "headerType": 1,
-                                "name": "Price Chg %",
+                                "name": "Price\nChg %",
                                 "align": "Right",
                                 "sortParam": 0,
                                 "isFilterable": false,
@@ -251,7 +252,8 @@
                                 ],
                                 [
                                     "stockName",
-                                    "analysisCTA"
+                                    "displayLock",
+                                    "lockFlag"
                                 ],
                                 [
                                     "noOfBuys"
@@ -272,22 +274,12 @@
                     },
                     {
                         "name": "Green Energy Stars",
-                        "info": "Lorem Ipsum",
+                        "info": "Stocks which are purely or majorly working on Green/renewable Energy",
                         "url": "https://api.moneycontrol.com/proStockList/greenEnergyStars?deviceType=A",
-                        "apiIdentifier": 400,
-                        "apiType": "JSON",
+                        "apiIdentifier": 100,
+                        "apiType": "PROTO",
                         "defaultSub": false,
                         "id": 4,
-                        "headers": {
-                            "title": {
-                                "label": "1 Year Return",
-                                "appends": "yearlyReturn"
-                            },
-                            "subTitle": {
-                                "label": "Last updated: ",
-                                "appends": "updatedAt"
-                            }
-                        },
                         "tableHeaders": [
                             {
                                 "headerType": 1,
@@ -300,7 +292,7 @@
                             },
                             {
                                 "headerType": 1,
-                                "name": "Price Chg %",
+                                "name": "Price\nChg %",
                                 "align": "Right",
                                 "sortParam": 0,
                                 "isFilterable": false,
@@ -321,7 +313,8 @@
                                 ],
                                 [
                                     "stockName",
-                                    "analysisCTA"
+                                    "displayLock",
+                                    "lockFlag"
                                 ],
                                 [
                                     "priceUpdateDirection",
@@ -338,22 +331,12 @@
                     },
                     {
                         "name": "EV Leaders",
-                        "info": "Lorem Ipsum",
+                        "info": "Stocks which are leaders in EV business",
                         "url": "https://api.moneycontrol.com/proStockList/evLeaders?deviceType=A",
-                        "apiIdentifier": 500,
-                        "apiType": "JSON",
+                        "apiIdentifier": 100,
+                        "apiType": "PROTO",
                         "defaultSub": false,
                         "id": 5,
-                        "headers": {
-                            "title": {
-                                "label": "1 Year Return",
-                                "appends": "yearlyReturn"
-                            },
-                            "subTitle": {
-                                "label": "Last updated: ",
-                                "appends": "updatedAt"
-                            }
-                        },
                         "tableHeaders": [
                             {
                                 "headerType": 1,
@@ -366,7 +349,7 @@
                             },
                             {
                                 "headerType": 1,
-                                "name": "Price Chg %",
+                                "name": "Price\nChg %",
                                 "align": "Right",
                                 "sortParam": 0,
                                 "isFilterable": false,
@@ -387,7 +370,8 @@
                                 ],
                                 [
                                     "stockName",
-                                    "analysisCTA"
+                                    "displayLock",
+                                    "lockFlag"
                                 ],
                                 [
                                     "priceUpdateDirection",
@@ -404,22 +388,12 @@
                     },
                     {
                         "name": "Defence Guardians",
-                        "info": "Lorem Ipsum",
+                        "info": "Stocks which are heavily working on defence projects",
                         "url": "https://api.moneycontrol.com/proStockList/defenceGuardians?deviceType=A",
-                        "apiIdentifier": 600,
+                        "apiIdentifier": 100,
                         "id": 6,
-                        "apiType": "JSON",
+                        "apiType": "PROTO",
                         "defaultSub": false,
-                        "headers": {
-                            "title": {
-                                "label": "1 Year Return",
-                                "appends": "yearlyReturn"
-                            },
-                            "subTitle": {
-                                "label": "Last updated: ",
-                                "appends": "updatedAt"
-                            }
-                        },
                         "tableHeaders": [
                             {
                                 "headerType": 1,
@@ -432,7 +406,7 @@
                             },
                             {
                                 "headerType": 1,
-                                "name": "Price Chg %",
+                                "name": "Price\nChg %",
                                 "align": "Right",
                                 "sortParam": 0,
                                 "isFilterable": false,
@@ -453,7 +427,8 @@
                                 ],
                                 [
                                     "stockName",
-                                    "analysisCTA"
+                                    "displayLock",
+                                    "lockFlag"
                                 ],
                                 [
                                     "priceUpdateDirection",
@@ -470,15 +445,15 @@
                     },
                     {
                         "name": "F Score Leaders",
-                        "info": "Lorem Ipsum",
+                        "info": "Stocks with Piotroski score ≥7 and thus indicates Strong Financials",
                         "url": "https://api.moneycontrol.com/proStockList/fScoreLeaders?deviceType=A",
-                        "apiIdentifier": 700,
+                        "apiIdentifier": 100,
                         "id": 7,
-                        "apiType": "JSON",
+                        "apiType": "PROTO",
                         "defaultSub": false,
                         "headers": {
                             "title": {
-                                "label": "1 Year Return",
+                                "label": "1 Year Return*",
                                 "appends": "yearlyReturn"
                             },
                             "subTitle": {
@@ -515,7 +490,7 @@
                             },
                             {
                                 "headerType": 1,
-                                "name": "Price Chg %",
+                                "name": "Price\nChg %",
                                 "align": "Right",
                                 "sortParam": 0,
                                 "isFilterable": false,
@@ -536,7 +511,8 @@
                                 ],
                                 [
                                     "stockName",
-                                    "analysisCTA"
+                                    "displayLock",
+                                    "lockFlag"
                                 ],
                                 [
                                     "piotroskiScore"
@@ -557,22 +533,12 @@
                     },
                     {
                         "name": "Turnaround Stocks",
-                        "info": "Lorem Ipsum",
+                        "info": "Stocks showing a turnaround from losses to profits",
                         "url": "https://api.moneycontrol.com/proStockList/turnAroundStocks?deviceType=A",
-                        "apiIdentifier": 800,
+                        "apiIdentifier": 100,
                         "id": 8,
-                        "apiType": "JSON",
+                        "apiType": "PROTO",
                         "defaultSub": false,
-                        "headers": {
-                            "title": {
-                                "label": "1 Year Return",
-                                "appends": "yearlyReturn"
-                            },
-                            "subTitle": {
-                                "label": "Last updated: ",
-                                "appends": "updatedAt"
-                            }
-                        },
                         "tableHeaders": [
                             {
                                 "headerType": 1,
@@ -585,7 +551,7 @@
                             },
                             {
                                 "headerType": 1,
-                                "name": "Latest Qtr. Profit(Cr)\nPrev. Qtr. Profit(Cr)",
+                                "name": "Latest Qtr. Profit (Cr)\nPrev. Qtr. Profit (Cr)",
                                 "align": "Right",
                                 "sortParam": 0,
                                 "isFilterable": false,
@@ -594,7 +560,7 @@
                             },
                             {
                                 "headerType": 1,
-                                "name": "Price Chg %",
+                                "name": "Price\nChg %",
                                 "align": "Right",
                                 "sortParam": 0,
                                 "isFilterable": false,
@@ -615,7 +581,8 @@
                                 ],
                                 [
                                     "stockName",
-                                    "analysisCTA"
+                                    "displayLock",
+                                    "lockFlag"
                                 ],
                                 [
                                     "latestQtrProfit",
@@ -637,22 +604,12 @@
                     },
                     {
                         "name": "Profit Blasters",
-                        "info": "Lorem Ipsum",
+                        "info": "Stocks which have shown 5 times or more profit growth in latest 12 Months",
                         "url": "https://api.moneycontrol.com/proStockList/profitBlasters?deviceType=A",
-                        "apiIdentifier": 900,
+                        "apiIdentifier": 100,
                         "id": 9,
-                        "apiType": "JSON",
+                        "apiType": "PROTO",
                         "defaultSub": false,
-                        "headers": {
-                            "title": {
-                                "label": "1 Year Return",
-                                "appends": "yearlyReturn"
-                            },
-                            "subTitle": {
-                                "label": "Last updated: ",
-                                "appends": "updatedAt"
-                            }
-                        },
                         "tableHeaders": [
                             {
                                 "headerType": 1,
@@ -674,7 +631,7 @@
                             },
                             {
                                 "headerType": 1,
-                                "name": "Price Chg %",
+                                "name": "Price\nChg %",
                                 "align": "Right",
                                 "sortParam": 0,
                                 "isFilterable": false,
@@ -695,7 +652,8 @@
                                 ],
                                 [
                                     "stockName",
-                                    "analysisCTA"
+                                    "displayLock",
+                                    "lockFlag"
                                 ],
                                 [
                                     "yoyProfitGrowthPer"
@@ -716,22 +674,12 @@
                     },
                     {
                         "name": "Top Deal Makers",
-                        "info": "Lorem Ipsum",
+                        "info": "Top stocks by deal value in the last 1 month",
                         "url": "https://api.moneycontrol.com/proStockList/topDealMakers?deviceType=A",
-                        "apiIdentifier": 1000,
+                        "apiIdentifier": 100,
                         "id": 10,
-                        "apiType": "JSON",
+                        "apiType": "PROTO",
                         "defaultSub": false,
-                        "headers": {
-                            "title": {
-                                "label": "1 Year Return",
-                                "appends": "yearlyReturn"
-                            },
-                            "subTitle": {
-                                "label": "Last updated: ",
-                                "appends": "updatedAt"
-                            }
-                        },
                         "tableHeaders": [
                             {
                                 "headerType": 1,
@@ -753,7 +701,7 @@
                             },
                             {
                                 "headerType": 1,
-                                "name": "Price Chg %",
+                                "name": "Price\nChg %",
                                 "align": "Right",
                                 "sortParam": 0,
                                 "isFilterable": false,
@@ -793,15 +741,15 @@
                     },
                     {
                         "name": "Turning Bullish",
-                        "info": "Lorem Ipsum",
+                        "info": "Stocks with a recent shift to Bullish trend",
                         "url": "https://api.moneycontrol.com/proStockList/turningBullish?deviceType=A",
-                        "apiIdentifier": 1100,
+                        "apiIdentifier": 100,
                         "id": 11,
-                        "apiType": "JSON",
+                        "apiType": "PROTO",
                         "defaultSub": false,
                         "headers": {
                             "title": {
-                                "label": "1 Year Return",
+                                "label": "1 Year Return*",
                                 "appends": "yearlyReturn"
                             },
                             "subTitle": {
@@ -829,7 +777,7 @@
                             },
                             {
                                 "headerType": 1,
-                                "name": "Price Chg %",
+                                "name": "Price\nChg %",
                                 "align": "Right",
                                 "sortParam": 0,
                                 "isFilterable": false,
@@ -858,21 +806,20 @@
                         ],
                         "cellFormat": [
                             5,
-                            3,
                             2
                         ]
                     },
                     {
                         "name": "Turning Bearish",
-                        "info": "Lorem Ipsum",
+                        "info": "Stocks with a recent shift to Bearish trend",
                         "url": "https://api.moneycontrol.com/proStockList/turningBearish?deviceType=A",
-                        "apiIdentifier": 1200,
+                        "apiIdentifier": 100,
+                        "defaultSub": false,
                         "id": 12,
                         "apiType": "JSON",
-                        "defaultSub": false,
                         "headers": {
                             "title": {
-                                "label": "1 Year Return",
+                                "label": "1 Year Return*",
                                 "appends": "yearlyReturn"
                             },
                             "subTitle": {
@@ -900,7 +847,7 @@
                             },
                             {
                                 "headerType": 1,
-                                "name": "Price Chg %",
+                                "name": "Price\nChg %",
                                 "align": "Right",
                                 "sortParam": 0,
                                 "isFilterable": false,
@@ -929,9 +876,19 @@
                         ],
                         "cellFormat": [
                             5,
-                            3,
                             2
                         ]
+                    }
+                ],
+                "priceDetails": [
+                    {
+                        "multipleApi": true,
+                        "url": "https://api.moneycontrol.com/swiftapi/v1/markets/multi-asset-info?asset_ids=###ASSET_IDS###",
+                        "priceMapping": {
+                            "price": "currentPrice",
+                            "change": "change",
+                            "per_change": "perChange"
+                        }
                     }
                 ]
             }
