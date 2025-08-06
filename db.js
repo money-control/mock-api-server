@@ -12,6 +12,7 @@ const stockCompareConfig = require('./data/stock/compare/config.json');
 const stockCompareData = require('./data/stock/compare/data.json');
 const homeTrendingData = require('./data/home/trending/data.json');
 const proStockListConfig = require('./data/pro-stock-list/config.json');
+const homeProStockListConfig = require('./data/home/pro-stock-list/config.json');
 
 module.exports = {
   users,
@@ -26,5 +27,6 @@ module.exports = {
   stockCompareData,
   homeTrendingData,
   proStockListConfig,
+  homeProStockListConfig
 };
 

@@ -1,0 +1,475 @@
+{
+  "success": 1,
+  "data": {
+    "tabs": [
+      {
+        "name": "",
+        "tabViewType": "CAROUSEL",
+        "subTabs": [
+          {
+            "name": "High Potential Upside",
+            "url": "https://api.moneycontrol.com/proStockList/highPotentialUpside?deviceType=A",
+            "apiIdentifier": 100,
+            "apiType": "PROTO",
+            "defaultSub": true,
+            "id": 1,
+            "headers": {
+              "title": {
+                "label": "1 Year Return*",
+                "appends": "yearlyReturn"
+              },
+              "subTitle": {
+                "label": "Last updated: ",
+                "appends": "updatedAt"
+              }
+            },
+            "tableHeaders": [
+              {
+                "headerType": 1,
+                "name": "Stock Name",
+                "align": "Left",
+                "sortParam": 0,
+                "isFilterable": false,
+                "position": 0,
+                "flex": 1
+              },
+              {
+                "headerType": 1,
+                "name": "Price Forecast\nUpside %",
+                "align": "Right",
+                "sortParam": 0,
+                "isFilterable": false,
+                "position": 1,
+                "flex": 1
+              },
+              {
+                "headerType": 1,
+                "name": "Price\nChg %",
+                "align": "Right",
+                "sortParam": 0,
+                "isFilterable": false,
+                "position": 2,
+                "flex": 1
+              }
+            ],
+            "data": {
+              "success": 1,
+              "data": {
+                "avg1YearReturn": {
+                  "title": "1year return",
+                  "avgPer": "35.36",
+                  "lastUpdatedDate": "Aug 05 15:56"
+                },
+                "list": [
+                  {
+                    "stkName": "TCS",
+                    "ltp": "3063.90",
+                    "priceChange": "-1026.9500",
+                    "pricePercentChange": "-25.1000",
+                    "analystCount": 46,
+                    "scId": "TCS",
+                    "ex": "N"
+                  },
+                  {
+                    "stkName": "HCL Tech",
+                    "ltp": "1482.70",
+                    "priceChange": "-389.0500",
+                    "pricePercentChange": "-20.7900",
+                    "analystCount": 44,
+                    "scId": "HCL02",
+                    "ex": "N"
+                  },
+                  {
+                    "stkName": "Axis Bank",
+                    "ltp": "1070.80",
+                    "priceChange": "-100.8000",
+                    "pricePercentChange": "-8.6000",
+                    "analystCount": 43,
+                    "scId": "UTI10",
+                    "ex": "N"
+                  }
+                ]
+              }
+            },
+            "showDataModelObj": [
+              [
+                [
+                  "scId",
+                  "exchange",
+                  "actionUrl",
+                  "displayLock",
+                  "lockFlag",
+                  "tabId"
+                ],
+                [
+                  "stockName",
+                  "displayLock",
+                  "lockFlag"
+                ],
+                [
+                  "priceUpdateDirection",
+                  "price",
+                  "change",
+                  "per_change"
+                ],
+                [
+                  "priceUpdateDirection",
+                  "price",
+                  "change",
+                  "per_change"
+                ]
+              ]
+            ],
+            "cellFormat": [
+              1,
+              2,
+              2
+            ]
+          },
+          {
+            "name": "Top Buy Rating",
+            "url": "https://api.moneycontrol.com/proStockList/topBuyRating?deviceType=A",
+            "apiIdentifier": 100,
+            "apiType": "PROTO",
+            "defaultSub": false,
+            "id": 3,
+            "headers": {
+              "title": {
+                "label": "1 Year Return*",
+                "appends": "yearlyReturn"
+              },
+              "subTitle": {
+                "label": "Last updated: ",
+                "appends": "updatedAt"
+              }
+            },
+            "tableHeaders": [
+              {
+                "headerType": 1,
+                "name": "Stock Name",
+                "align": "Left",
+                "sortParam": 0,
+                "isFilterable": false,
+                "position": 0,
+                "flex": 1
+              },
+              {
+                "headerType": 1,
+                "name": "No. of Buys",
+                "align": "Right",
+                "sortParam": 0,
+                "isFilterable": false,
+                "position": 1,
+                "flex": 1
+              },
+              {
+                "headerType": 1,
+                "name": "Price\nChg %",
+                "align": "Right",
+                "sortParam": 0,
+                "isFilterable": false,
+                "position": 2,
+                "flex": 1
+              }
+            ],
+            "data": {
+              "success": 1,
+              "data": {
+                "avg1YearReturn": {
+                  "title": "1year return",
+                  "avgPer": "35.36",
+                  "lastUpdatedDate": "Aug 05 15:56"
+                },
+                "list": [
+                  {
+                    "stkName": "Accenture",
+                    "ltp": "3063.90",
+                    "priceChange": "-1026.9500",
+                    "pricePercentChange": "-25.1000",
+                    "analystCount": 46,
+                    "scId": "TCS",
+                    "ex": "N"
+                  },
+                  {
+                    "stkName": "HCL",
+                    "ltp": "1482.70",
+                    "priceChange": "-389.0500",
+                    "pricePercentChange": "-20.7900",
+                    "analystCount": 44,
+                    "scId": "HCL02",
+                    "ex": "N"
+                  },
+                  {
+                    "stkName": "HDFC",
+                    "ltp": "1070.80",
+                    "priceChange": "-100.8000",
+                    "pricePercentChange": "-8.6000",
+                    "analystCount": 43,
+                    "scId": "UTI10",
+                    "ex": "N"
+                  }
+                ]
+              }
+            },
+            "showDataModelObj": [
+              [
+                [
+                  "scId",
+                  "exchange",
+                  "actionUrl",
+                  "displayLock",
+                  "lockFlag",
+                  "tabId"
+                ],
+                [
+                  "stockName",
+                  "displayLock",
+                  "lockFlag"
+                ],
+                [
+                  "noOfBuys"
+                ],
+                [
+                  "priceUpdateDirection",
+                  "price",
+                  "change",
+                  "per_change"
+                ]
+              ]
+            ],
+            "cellFormat": [
+              1,
+              3,
+              2
+            ]
+          },
+          {
+            "name": "Turnaround Stocks",
+            "url": "https://api.moneycontrol.com/proStockList/turnAroundStocks?deviceType=A",
+            "apiIdentifier": 100,
+            "id": 8,
+            "apiType": "PROTO",
+            "defaultSub": false,
+            "tableHeaders": [
+              {
+                "headerType": 1,
+                "name": "Stock Name",
+                "align": "Left",
+                "sortParam": 0,
+                "isFilterable": false,
+                "position": 0,
+                "flex": 1
+              },
+              {
+                "headerType": 1,
+                "name": "Latest Qtr. Profit (Cr)\nPrev. Qtr. Profit (Cr)",
+                "align": "Right",
+                "sortParam": 0,
+                "isFilterable": false,
+                "position": 1,
+                "flex": 1
+              },
+              {
+                "headerType": 1,
+                "name": "Price\nChg %",
+                "align": "Right",
+                "sortParam": 0,
+                "isFilterable": false,
+                "position": 2,
+                "flex": 1
+              }
+            ],
+            "data": {
+              "success": 1,
+              "data": {
+                "avg1YearReturn": {
+                  "title": "1year return",
+                  "avgPer": "35.36",
+                  "lastUpdatedDate": "Aug 05 15:56"
+                },
+                "list": [
+                  {
+                    "stkName": "Reliance",
+                    "ltp": "3063.90",
+                    "priceChange": "-1026.9500",
+                    "pricePercentChange": "-25.1000",
+                    "analystCount": 46,
+                    "scId": "TCS",
+                    "ex": "N"
+                  },
+                  {
+                    "stkName": "Infosys",
+                    "ltp": "1482.70",
+                    "priceChange": "-389.0500",
+                    "pricePercentChange": "-20.7900",
+                    "analystCount": 44,
+                    "scId": "HCL02",
+                    "ex": "N"
+                  },
+                  {
+                    "stkName": "Titan Company",
+                    "ltp": "1070.80",
+                    "priceChange": "-100.8000",
+                    "pricePercentChange": "-8.6000",
+                    "analystCount": 43,
+                    "scId": "UTI10",
+                    "ex": "N"
+                  }
+                ]
+              }
+            },
+            "showDataModelObj": [
+              [
+                [
+                  "scId",
+                  "exchange",
+                  "actionUrl",
+                  "displayLock",
+                  "lockFlag",
+                  "tabId"
+                ],
+                [
+                  "stockName",
+                  "displayLock",
+                  "lockFlag"
+                ],
+                [
+                  "latestQtrProfit",
+                  "prevQtrProfit"
+                ],
+                [
+                  "priceUpdateDirection",
+                  "price",
+                  "change",
+                  "per_change"
+                ]
+              ]
+            ],
+            "cellFormat": [
+              1,
+              3,
+              2
+            ]
+          },
+          {
+            "name": "Profit Blasters",
+            "url": "https://api.moneycontrol.com/proStockList/profitBlasters?deviceType=A",
+            "apiIdentifier": 100,
+            "id": 9,
+            "apiType": "PROTO",
+            "defaultSub": false,
+            "tableHeaders": [
+              {
+                "headerType": 1,
+                "name": "Stock Name",
+                "align": "Left",
+                "sortParam": 0,
+                "isFilterable": false,
+                "position": 0,
+                "flex": 1
+              },
+              {
+                "headerType": 1,
+                "name": "YOY Profit Growth %",
+                "align": "Right",
+                "sortParam": 0,
+                "isFilterable": false,
+                "position": 1,
+                "flex": 1
+              },
+              {
+                "headerType": 1,
+                "name": "Price\nChg %",
+                "align": "Right",
+                "sortParam": 0,
+                "isFilterable": false,
+                "position": 2,
+                "flex": 1
+              }
+            ],
+            "data": {
+              "success": 1,
+              "data": {
+                "avg1YearReturn": {
+                  "title": "1year return",
+                  "avgPer": "35.36",
+                  "lastUpdatedDate": "Aug 05 15:56"
+                },
+                "list": [
+                  {
+                    "stkName": "Vedanta",
+                    "ltp": "3063.90",
+                    "priceChange": "-1026.9500",
+                    "pricePercentChange": "-25.1000",
+                    "analystCount": 46,
+                    "scId": "TCS",
+                    "ex": "N"
+                  },
+                  {
+                    "stkName": "GMR Airports",
+                    "ltp": "1482.70",
+                    "priceChange": "-389.0500",
+                    "pricePercentChange": "-20.7900",
+                    "analystCount": 44,
+                    "scId": "HCL02",
+                    "ex": "N"
+                  },
+                  {
+                    "stkName": "SBI",
+                    "ltp": "1070.80",
+                    "priceChange": "-100.8000",
+                    "pricePercentChange": "-8.6000",
+                    "analystCount": 43,
+                    "scId": "UTI10",
+                    "ex": "N"
+                  }
+                ]
+              }
+            },
+            "showDataModelObj": [
+              [
+                [
+                  "scId",
+                  "exchange",
+                  "actionUrl",
+                  "displayLock",
+                  "lockFlag",
+                  "tabId"
+                ],
+                [
+                  "stockName",
+                  "displayLock",
+                  "lockFlag"
+                ],
+                [
+                  "yoyProfitGrowthPer"
+                ],
+                [
+                  "priceUpdateDirection",
+                  "price",
+                  "change",
+                  "per_change"
+                ]
+              ]
+            ],
+            "cellFormat": [
+              1,
+              3,
+              2
+            ]
+          }
+        ],
+        "priceDetails": [
+          {
+            "multipleApi": true,
+            "priceMapping": {
+              "price": "currentPrice",
+              "change": "change",
+              "per_change": "perChange"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
