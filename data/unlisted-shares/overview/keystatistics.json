@@ -1,0 +1,16 @@
+{
+  "success": 1,
+  "data": {
+      "pe" : "1",
+      "pb" : "2",
+      "ps" : "1",
+      "eps" : "1",
+      "epsChangePercentage" : "23.2",
+      "epsChangeDirection" : 1,
+      "bookValue" : "1",
+      "dividend" :"1",
+      "dividendYield" :"1",
+      "faceValue" : "1"
+    
+  }
+}

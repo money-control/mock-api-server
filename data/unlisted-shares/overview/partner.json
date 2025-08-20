@@ -1,0 +1,38 @@
+{
+  "success": 1,
+  "data": {
+    "heading": "Partner",
+    "data": [
+      {
+        "iconUrl": "url",
+        "title": "ManPasand",
+        "lastValue": "830.95",
+        "direction": "1",
+        "change": "338.75",
+        "percentChange": "68.82",
+        "partnerassetId" : "",
+        "redirectionurl" : ""
+      },
+      {
+        "iconUrl": "url",
+        "title": "ManPasand",
+        "lastValue": "830.95",
+        "direction": "1",
+        "change": "338.75",
+        "percentChange": "68.82",
+        "partnerassetId" : "",
+        "redirectionurl" : ""
+      },
+      {
+        "iconUrl": "url",
+        "title": "ManPasand",
+        "lastValue": "830.95",
+        "direction": "1",
+        "change": "338.75",
+        "percentChange": "68.82",
+        "partnerassetId" : "",
+        "redirectionurl" : ""
+      }
+    ]
+  }
+}

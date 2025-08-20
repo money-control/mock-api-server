@@ -1,0 +1,47 @@
+{
+  "success": 1,
+  "data": {
+    "dividends": [
+      {
+        "announce_date": "2025-06-27",
+        "dividend_type": "Interim",
+        "dividend_per": 1100,
+        "effective_date": "16 Jul, 2025",
+        "remarks": "Rs.11.0000 per share(1100%)Third Interim Dividend",
+        "dividend_amount": "11.00"
+      },
+      {
+        "announce_date": "2025-04-11",
+        "dividend_type": "Final",
+        "dividend_per": 3000,
+        "effective_date": "04 Jun, 2025",
+        "remarks": "Rs.30.0000 per share(3000%)Final Dividend",
+        "dividend_amount": "30.00"
+      },
+      {
+        "announce_date": "2025-01-09",
+        "dividend_type": "Special",
+        "dividend_per": 6600,
+        "effective_date": "17 Jan, 2025",
+        "remarks": "Rs.66.0000 per share(6600%)Special Dividend",
+        "dividend_amount": "66.00"
+      },
+      {
+        "announce_date": "2024-12-31",
+        "dividend_type": "Interim",
+        "dividend_per": 1000,
+        "effective_date": "17 Jan, 2025",
+        "remarks": "Rs.10.0000 per share(1000%)Third Interim Dividend",
+        "dividend_amount": "10.00"
+      },
+      {
+        "announce_date": "2024-09-30",
+        "dividend_type": "Interim",
+        "dividend_per": 1000,
+        "effective_date": "18 Oct, 2024",
+        "remarks": "Rs.10.0000 per share(1000%)Second Interim Dividend",
+        "dividend_amount": "10.00"
+      }
+    ]
+  }
+}

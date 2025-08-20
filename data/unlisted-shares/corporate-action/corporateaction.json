@@ -1,0 +1,63 @@
+{
+  "success": 1,
+  "data": {
+    "announcement": {
+      "key": "0",
+      "data": [
+        {
+          "story_id": 32712185,
+          "heading": "Press Release - TCS Partners With Now Corporation To Power Philippines'' Sovereign Data Cloud And Financial Inclusivity",
+          "attachment_url": "https://www.bseindia.com/stockinfo/annpdfopen.aspx?pname=3b265d73-42f4-4eda-a08d-13c969a12b5f.pdf",
+          "summary": "Press Release - TCS Partners with Now Corporation to Power Philippines'' Sovereign Data Cloud and Financial Inclusivity",
+          "source": "BSE",
+          "creationtime": "11 Aug, 2025 | 02:00PM",
+          "link": "https://www.moneycontrol.com/stocks/stock_market/corp_notices.php?autono=32712185",
+          "shortsummary": "Press Release - TCS Partners with Now Corporation to Power Philippines'' Sovereign Data Cloud and Financial Inclusivity"
+        },
+        {
+          "story_id": 32702158,
+          "heading": "Press Release - TCS Extends Partnership With Weatherford International To Enable AI Driven Business Transformation",
+          "attachment_url": "https://www.bseindia.com/stockinfo/annpdfopen.aspx?pname=fd97580a-c719-4350-803b-f921b404708b.pdf",
+          "summary": "Press Release - TCS Extends Partnership with Weatherford International to Enable AI Driven Business Transformation",
+          "source": "BSE",
+          "creationtime": "05 Aug, 2025 | 11:00AM",
+          "link": "https://www.moneycontrol.com/stocks/stock_market/corp_notices.php?autono=32702158",
+          "shortsummary": "Press Release - TCS Extends Partnership with Weatherford International to Enable AI Driven Business Transformation"
+        },
+        {
+          "story_id": 32697409,
+          "heading": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+          "attachment_url": "https://www.bseindia.com/stockinfo/annpdfopen.aspx?pname=b3319195-07b0-4bf7-8c52-5e6529a20f4d.pdf",
+          "summary": "Schedule of Analyst/Institutional Investor Meetings",
+          "source": "BSE",
+          "creationtime": "31 Jul, 2025 | 04:47PM",
+          "link": "https://www.moneycontrol.com/stocks/stock_market/corp_notices.php?autono=32697409",
+          "shortsummary": "Schedule of Analyst/Institutional Investor Meetings"
+        }
+      ],
+      "viewMoreUrl": "https://api.moneycontrol.com/mcapi/v1/stock/announcements?scId=TCS&deviceType=I&page="
+    },
+    "sections": [
+      {
+        "key": "2",
+        "url": "https://api.moneycontrol.com/mcapi/v1/stock/corporate-action?scId=TCS&deviceType=I&section=d",
+        "name": "Dividends"
+      },
+      {
+        "key": "3",
+        "url": "https://api.moneycontrol.com/mcapi/v1/stock/corporate-action?scId=TCS&deviceType=I&section=b",
+        "name": "Bonus"
+      },
+      {
+        "key": "4",
+        "url": "https://api.moneycontrol.com/mcapi/v1/stock/corporate-action?scId=TCS&deviceType=I&section=s",
+        "name": "Splits"
+      },
+      {
+        "key": "5",
+        "url": "https://api.moneycontrol.com/mcapi/v1/stock/corporate-action?scId=TCS&deviceType=I&section=r",
+        "name": "Rights"
+      }
+    ]
+  }
+}

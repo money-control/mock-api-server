@@ -1,0 +1,17 @@
+{
+  "success": 1,
+  "data": {
+    "pageCount": 0,
+    "splits": [
+      {
+        "announce_date": "2010-05-28",
+        "old_fv": 10,
+        "new_fv": 5,
+        "exsplit_date": "02 Sep, 2010",
+        "record_date": "2010-09-03",
+        "disp_announce_date": "28 May, 2010",
+        "exPrice": 413.9
+      }
+    ]
+  }
+}

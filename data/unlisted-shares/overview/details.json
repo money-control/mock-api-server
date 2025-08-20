@@ -1,0 +1,27 @@
+{
+  "success": 1,
+  "data": {
+    "pan" : {
+        "title": "PAN",
+        "value": "ABC"
+    },
+    "isin" : {
+      "title": "ISIN",
+      "value": "INE"
+    },
+    "cin": {
+        "title": "CIN",
+        "value": "1231231441"
+      },
+    "registrationDate" : {
+        "title": "Registration Date",
+        "value": "12-12-2025"
+      },
+    "RTA":
+      {
+        "title": "RTA",
+        "value": "1231231441"
+      }
+    
+  }
+}

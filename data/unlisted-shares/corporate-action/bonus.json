@@ -1,0 +1,34 @@
+{
+  "success": 1,
+  "data": {
+    "bonus": [
+      {
+        "announcement_date": "19 Apr, 2018",
+        "existing_ratio": 1,
+        "offered_ratio": 1,
+        "record_date": "2018-06-02",
+        "exbonus_date": "31 May, 2018",
+        "chkdeb": "",
+        "bonus_ratio": "1:1"
+      },
+      {
+        "announcement_date": "20 Apr, 2009",
+        "existing_ratio": 1,
+        "offered_ratio": 1,
+        "record_date": "2009-06-17",
+        "exbonus_date": "16 Jun, 2009",
+        "chkdeb": "",
+        "bonus_ratio": "1:1"
+      },
+      {
+        "announcement_date": "17 Apr, 2006",
+        "existing_ratio": 1,
+        "offered_ratio": 1,
+        "record_date": "2006-07-31",
+        "exbonus_date": "28 Jul, 2006",
+        "chkdeb": "",
+        "bonus_ratio": "1:1"
+      }
+    ]
+  }
+}

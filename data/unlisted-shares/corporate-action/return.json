@@ -1,0 +1,30 @@
+{
+  "success": 1,
+  "data": {
+    "rights": [
+      {
+        "announce_date": "2008-06-20",
+        "existing_ratio": 7,
+        "offered_ratio": 3,
+        "facevalue": 1,
+        "premium": 95,
+        "record_date": "0000-00-00",
+        "exrights_date": "28 Aug, 2008",
+        "disp_announce_date": "20 Jun, 2008",
+        "rights_ratio": "3:7"
+      },
+      {
+        "announce_date": "2005-09-20",
+        "existing_ratio": 4,
+        "offered_ratio": 1,
+        "facevalue": 1,
+        "premium": 95,
+        "record_date": "2005-11-28",
+        "exrights_date": "21 Nov, 2005",
+        "disp_announce_date": "20 Sep, 2005",
+        "rights_ratio": "1:4"
+      }
+    ],
+    "pageCount": 0
+  }
+}

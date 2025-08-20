@@ -1,0 +1,65 @@
+{
+  "success": 1,
+  "data": {
+    "shareHoldingData": {
+      "pieChartData": {
+        "Promoter": 71.77,
+        "Public": 4.15
+      },
+      "detailedHoldings": "https://api.moneycontrol.com/mcapi/v1/extdata/mc-shareholdings?scId=TCS&section=dh&appVersion=185",
+      "barChartData": {
+        "Promoter": {
+          "Jun 2024": {
+            "Holding": 71.77,
+            "Pledge": 0.28
+          },
+          "Sep 2024": {
+            "Holding": 71.77,
+            "Pledge": 0.28
+          },
+          "Dec 2024": {
+            "Holding": 71.77,
+            "Pledge": 0
+          },
+          "Mar 2025": {
+            "Holding": 71.77,
+            "Pledge": 0
+          },
+          "Jun 2025": {
+            "Holding": 71.77,
+            "Pledge": 0
+          }
+        },
+        "Public": {
+          "Jun 2024": {
+            "Holding": 4.25
+          },
+          "Sep 2024": {
+            "Holding": 4.11
+          },
+          "Dec 2024": {
+            "Holding": 4.08
+          },
+          "Mar 2025": {
+            "Holding": 4.05
+          },
+          "Jun 2025": {
+            "Holding": 4.15
+          }
+        }
+      },
+      "insights": [
+        {
+          "shorttext": "Promoters",
+          "longtext": "Promoter holding remains unchanged at 71.77% in Jun 2025 qtr.",
+          "color": "neutral"
+        },
+        {
+          "shorttext": "Pledge",
+          "longtext": "No Change in Promoter Pledge. Total Pledge stands at 0.00% of total holding in Jun 2025 qtr.",
+          "color": "neutral"
+        }
+      ]
+    }
+  }
+}

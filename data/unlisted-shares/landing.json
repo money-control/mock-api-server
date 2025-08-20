@@ -1,0 +1,142 @@
+{
+  "success": 1,
+  "data": {
+    "tabs": [
+      {
+        "name": "Overview",
+        "url": "overview?id=LL06&appVersion=184",
+        "uniqueId": "1",
+        "refreshRate": "600",
+        "refreshFlag": false
+      },
+      {
+        "name": "Corporate Action",
+        "url": "corporate-action?id=LL06&appVersion=184",
+        "uniqueId": "12",
+        "refreshRate": "600",
+        "refreshFlag": false
+      },
+      {
+        "name": "Shareholding",
+        "url": "shareholding?id=LL06&appVersion=184",
+        "uniqueId": "14",
+        "refreshRate": "600",
+        "refreshFlag": false
+      },
+      {
+        "name": "Info & Mgmt",
+        "url": "info?id=LL06&appVersion=184",
+        "uniqueId": "16",
+        "refreshRate": "600",
+        "refreshFlag": false
+      }
+    ],
+    "graphUrl": [
+      {
+        "overview": {
+          "baseUrl": "https://priceapi.moneycontrol.com/techCharts/commodity/mcApp/intra?assetType=C&symbol=GOLD&duration=1D&expDate=2025-10-03&exchange=mcx",
+          "url": [
+            {
+              "name": "1D",
+              "duration": "1",
+              "resolution": "5",
+              "from_min": "10"
+            },
+            {
+              "name": "5D",
+              "duration": "5",
+              "resolution": "15",
+              "from_min": "20"
+            },
+            {
+              "name": "1M",
+              "duration": "30",
+              "resolution": "60",
+              "from_min": "80"
+            },
+            {
+              "name": "6M",
+              "duration": "180",
+              "resolution": "1D",
+              "from_min": "2880"
+            },
+            {
+              "name": "1Y",
+              "duration": "365",
+              "resolution": "1D",
+              "from_min": "2880"
+            },
+            {
+              "name": "5Y",
+              "duration": "1825",
+              "resolution": "W",
+              "from_min": "10080"
+            }
+          ]
+        }
+      },
+      {
+        "basic": {
+          "baseUrl": "https://priceapi.moneycontrol.com/techCharts/commodity/mcApp/intra?assetType=C&symbol=GOLD&duration=1D&expDate=2025-10-03&exchange=mcx",
+          "dropdown": [
+            {
+              "name": "Area",
+              "uniqueId": "1"
+            },
+            {
+              "name": "Line",
+              "uniqueId": "1"
+            },
+            {
+              "name": "Candle Stick",
+              "uniqueId": "1"
+            },
+            {
+              "name": "OHLC",
+              "uniqueId": "1"
+            }
+          ],
+          "url": [
+            {
+              "name": "1D",
+              "duration": "1",
+              "resolution": "5",
+              "from_min": "10"
+            },
+            {
+              "name": "5D",
+              "duration": "5",
+              "resolution": "15",
+              "from_min": "20"
+            },
+            {
+              "name": "1M",
+              "duration": "30",
+              "resolution": "60",
+              "from_min": "80"
+            },
+            {
+              "name": "6M",
+              "duration": "180",
+              "resolution": "1D",
+              "from_min": "2880"
+            },
+            {
+              "name": "1Y",
+              "duration": "365",
+              "resolution": "1D",
+              "from_min": "2880"
+            },
+            {
+              "name": "5Y",
+              "duration": "1825",
+              "resolution": "W",
+              "from_min": "10080"
+            }
+          ]
+        }
+      }
+    ],
+    "priceInfo": "/data-For-Page"
+  }
+}
