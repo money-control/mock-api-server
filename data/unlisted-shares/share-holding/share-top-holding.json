@@ -1,0 +1,1040 @@
+{
+  "success": 1,
+  "data": {
+    "shareHoldingData": {
+      "detailedHoldings": {
+        "30-Jun-2025": {
+          "promoterHolding": [
+            {
+              "holdingPercentage": "18.75",
+              "totalShareVolume": 22414088,
+              "name": "Sarandhar Singh * (please refer notes)",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "7.27",
+              "totalShareVolume": 8695360,
+              "name": "Basudeo Narain Singh",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "6.42",
+              "totalShareVolume": 7682000,
+              "name": "Mritunjay Kumar Singh",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "6.18",
+              "totalShareVolume": 7393939,
+              "name": "Madhurima  Singh& (please refer notes)",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "2.59",
+              "totalShareVolume": 3092875,
+              "name": "Madhurima Singh@ (please refer notes)",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "2.16",
+              "totalShareVolume": 2579045,
+              "name": "Seema  Singh",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "2.00",
+              "totalShareVolume": 2394050,
+              "name": "Archana  Singh",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "1.04",
+              "totalShareVolume": 1238220,
+              "name": "Jayanti Sinha",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "1.01",
+              "totalShareVolume": 1208971,
+              "name": "Aniruddha Singh& (please refer notes)",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "1.01",
+              "totalShareVolume": 1208971,
+              "name": "Divya  Singh& (please refer notes)",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "1.01",
+              "totalShareVolume": 1208650,
+              "name": "Meghna  Singh",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "1.00",
+              "totalShareVolume": 1195650,
+              "name": "Shrey Shree Anant Singh",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "0.46",
+              "totalShareVolume": 550000,
+              "name": "Sadhika Raj",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "0.46",
+              "totalShareVolume": 550000,
+              "name": "Sakshi Sinha",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "0.46",
+              "totalShareVolume": 550000,
+              "name": "Satyam Sinha",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "0.46",
+              "totalShareVolume": 550000,
+              "name": "Shikhar Raj",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "0.45",
+              "totalShareVolume": 538038,
+              "name": "Raj Kumar Singh",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "0.09",
+              "totalShareVolume": 102695,
+              "name": "Srinivas Singh # (please refer notes)",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "0.08",
+              "totalShareVolume": 100517,
+              "name": "Manju  Singh # (please refer notes)",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "0.07",
+              "totalShareVolume": 79800,
+              "name": "Sarandhar Singh  # (please refer notes)",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "0.06",
+              "totalShareVolume": 72430,
+              "name": "Satish Kumar Singh # (please refer notes)",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "0.01",
+              "totalShareVolume": 7800,
+              "name": "Inderjit Kaur Arora # (please refer notes)",
+              "urlSlug": "",
+              "portfolioId": ""
+            }
+          ],
+          "publicNonInstitutionalHolding": [
+            {
+              "holdingPercentage": "2.82",
+              "totalShareVolume": 3373312,
+              "name": "Kishor  Kumar Singh",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "2.31",
+              "totalShareVolume": 2764719,
+              "name": "Alok Kumar",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "2.25",
+              "totalShareVolume": 2688000,
+              "name": "Ashok Kumar",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "2.03",
+              "totalShareVolume": 2430035,
+              "name": "Deepak Kumar Singh",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "1.41",
+              "totalShareVolume": 1684535,
+              "name": "Rajesh Kumar",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "1.24",
+              "totalShareVolume": 1485342,
+              "name": "Rajeev Ranjan",
+              "urlSlug": "",
+              "portfolioId": ""
+            }
+          ]
+        },
+        "31-Mar-2025": {
+          "promoterHolding": [
+            {
+              "holdingPercentage": "19.42",
+              "totalShareVolume": 23214088,
+              "name": "Sarandhar Singh* (please refer notes)",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "7.27",
+              "totalShareVolume": 8695360,
+              "name": "Basudeo Narain Singh",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "6.42",
+              "totalShareVolume": 7682000,
+              "name": "Mritunjay Kumar Singh",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "6.18",
+              "totalShareVolume": 7393939,
+              "name": "Madhurima  Singh& (please refer notes)",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "2.59",
+              "totalShareVolume": 3092875,
+              "name": "Madhurima Singh@ (please refer notes)",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "2.46",
+              "totalShareVolume": 2938220,
+              "name": "Jayanti Sinha",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "2.16",
+              "totalShareVolume": 2579045,
+              "name": "Seema  Singh",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "2.00",
+              "totalShareVolume": 2394050,
+              "name": "Archana  Singh",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "1.01",
+              "totalShareVolume": 1208971,
+              "name": "Aniruddha Singh & (please refer notes)",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "1.01",
+              "totalShareVolume": 1208971,
+              "name": "Divya  Singh & (please refer notes)",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "1.01",
+              "totalShareVolume": 1208650,
+              "name": "Meghna  Singh",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "1.00",
+              "totalShareVolume": 1195650,
+              "name": "Shrey Shree Anant Singh",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "0.46",
+              "totalShareVolume": 550000,
+              "name": "Sadhika Raj",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "0.46",
+              "totalShareVolume": 550000,
+              "name": "Sakshi Sinha",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "0.46",
+              "totalShareVolume": 550000,
+              "name": "Satyam Sinha",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "0.46",
+              "totalShareVolume": 550000,
+              "name": "Shikhar Raj",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "0.45",
+              "totalShareVolume": 538038,
+              "name": "Raj Kumar Singh",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "0.09",
+              "totalShareVolume": 102695,
+              "name": "Srinivas Singh # (please refer notes)",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "0.08",
+              "totalShareVolume": 100517,
+              "name": "Manju  Singh # (please refer notes)",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "0.07",
+              "totalShareVolume": 79800,
+              "name": "Sarandhar Singh # (please refer notes)",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "0.06",
+              "totalShareVolume": 72430,
+              "name": "Satish Kumar Singh # (please refer notes)",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "0.01",
+              "totalShareVolume": 7800,
+              "name": "Inderjit Kaur Arora # (please refer notes)",
+              "urlSlug": "",
+              "portfolioId": ""
+            }
+          ],
+          "publicNonInstitutionalHolding": [
+            {
+              "holdingPercentage": "2.82",
+              "totalShareVolume": 3373312,
+              "name": "Kishor  Kumar Singh",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "2.31",
+              "totalShareVolume": 2764719,
+              "name": "Alok  Kumar",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "2.25",
+              "totalShareVolume": 2688000,
+              "name": "Ashok Kumar",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "2.08",
+              "totalShareVolume": 2492283,
+              "name": "Deepak Kumar Singh",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "1.41",
+              "totalShareVolume": 1684535,
+              "name": "Rajesh Kumar",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "1.24",
+              "totalShareVolume": 1485342,
+              "name": "Rajeev Ranjan",
+              "urlSlug": "",
+              "portfolioId": ""
+            }
+          ]
+        },
+        "31-Dec-2024": {
+          "promoterHolding": [
+            {
+              "holdingPercentage": "19.95",
+              "totalShareVolume": 23855800,
+              "name": "Sarandhar Singh* (please refer notes)",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "7.27",
+              "totalShareVolume": 8695360,
+              "name": "Basudeo Narain Singh",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "6.42",
+              "totalShareVolume": 7682000,
+              "name": "Mritunjay Kumar Singh",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "4.79",
+              "totalShareVolume": 5730794,
+              "name": "Madhurima  Singh& (please refer notes)",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "2.59",
+              "totalShareVolume": 3092875,
+              "name": "Madhurima Singh@ (please refer notes)",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "2.46",
+              "totalShareVolume": 2938220,
+              "name": "Jayanti Sinha",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "2.16",
+              "totalShareVolume": 2579045,
+              "name": "Seema  Singh",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "2.00",
+              "totalShareVolume": 2394050,
+              "name": "Archana  Singh",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "1.39",
+              "totalShareVolume": 1663145,
+              "name": "Madhurima Singh $ (please refer notes)",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "1.01",
+              "totalShareVolume": 1208971,
+              "name": "Aniruddha Singh & (please refer notes)",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "1.01",
+              "totalShareVolume": 1208971,
+              "name": "Divya  Singh & (please refer notes)",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "1.01",
+              "totalShareVolume": 1208650,
+              "name": "Meghna  Singh",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "1.00",
+              "totalShareVolume": 1195650,
+              "name": "Shrey Shree Anant Singh",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "0.46",
+              "totalShareVolume": 550000,
+              "name": "Sadhika Raj",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "0.46",
+              "totalShareVolume": 550000,
+              "name": "Sakshi Sinha",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "0.46",
+              "totalShareVolume": 550000,
+              "name": "Satyam Sinha",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "0.46",
+              "totalShareVolume": 550000,
+              "name": "Shikhar Raj",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "0.45",
+              "totalShareVolume": 538038,
+              "name": "Raj Kumar Singh",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "0.09",
+              "totalShareVolume": 102695,
+              "name": "Srinivas Singh # (please refer notes)",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "0.08",
+              "totalShareVolume": 100517,
+              "name": "Manju  Singh # (please refer notes)",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "0.07",
+              "totalShareVolume": 79800,
+              "name": "Sarandhar Singh # (please refer notes)",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "0.06",
+              "totalShareVolume": 71934,
+              "name": "Satish Kumar Singh # (please refer notes)",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "0.01",
+              "totalShareVolume": 7800,
+              "name": "Inderjit Kaur Arora # (please refer notes)",
+              "urlSlug": "",
+              "portfolioId": ""
+            }
+          ],
+          "publicNonInstitutionalHolding": [
+            {
+              "holdingPercentage": "2.82",
+              "totalShareVolume": 3373312,
+              "name": "Kishor  Kumar Singh",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "2.31",
+              "totalShareVolume": 2764719,
+              "name": "Alok  Kumar",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "2.25",
+              "totalShareVolume": 2688000,
+              "name": "Ashok Kumar",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "2.09",
+              "totalShareVolume": 2503283,
+              "name": "Deepak Kumar Singh",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "1.41",
+              "totalShareVolume": 1684535,
+              "name": "Rajesh Kumar",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "1.24",
+              "totalShareVolume": 1485342,
+              "name": "Rajeev Ranjan",
+              "urlSlug": "",
+              "portfolioId": ""
+            }
+          ]
+        },
+        "30-Sep-2024": {
+          "promoterHolding": [
+            {
+              "holdingPercentage": "19.95",
+              "totalShareVolume": 23855800,
+              "name": "Sarandhar Singh* (please refer notes)",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "7.27",
+              "totalShareVolume": 8695360,
+              "name": "Basudeo Narain Singh",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "6.42",
+              "totalShareVolume": 7682000,
+              "name": "Mritunjay Kumar Singh",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "5.39",
+              "totalShareVolume": 6445745,
+              "name": "Madhurima Singh$ (please refer notes)",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "2.59",
+              "totalShareVolume": 3092875,
+              "name": "Madhurima Singh@ (please refer notes)",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "2.46",
+              "totalShareVolume": 2938220,
+              "name": "Jayanti Sinha",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "2.16",
+              "totalShareVolume": 2579045,
+              "name": "Seema Singh",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "2.00",
+              "totalShareVolume": 2394050,
+              "name": "Archana Singh",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "1.01",
+              "totalShareVolume": 1208971,
+              "name": "Aniruddha Singh& (please refer notes)",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "1.01",
+              "totalShareVolume": 1208971,
+              "name": "Divya Singh& (please refer notes)",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "1.01",
+              "totalShareVolume": 1208650,
+              "name": "Meghna Singh",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "1.00",
+              "totalShareVolume": 1195650,
+              "name": "Shrey Shree Anant Singh",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "0.79",
+              "totalShareVolume": 948194,
+              "name": "Madhurima Singh& (please refer notes)",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "0.46",
+              "totalShareVolume": 550000,
+              "name": "Sadhika Raj",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "0.46",
+              "totalShareVolume": 550000,
+              "name": "Sakshi Sinha",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "0.46",
+              "totalShareVolume": 550000,
+              "name": "Satyam Sinha",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "0.46",
+              "totalShareVolume": 550000,
+              "name": "Shikhar Raj",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "0.45",
+              "totalShareVolume": 538038,
+              "name": "Raj Kumar Singh",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "0.09",
+              "totalShareVolume": 102695,
+              "name": "Srinivas Singh# (please refer notes)",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "0.08",
+              "totalShareVolume": 100517,
+              "name": "Manju Singh# (please refer notes)",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "0.07",
+              "totalShareVolume": 79800,
+              "name": "Sarandhar Singh# (please refer notes)",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "0.06",
+              "totalShareVolume": 71934,
+              "name": "Satish Kumar Singh# (please refer notes)",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "0.01",
+              "totalShareVolume": 7800,
+              "name": "Inderjit Kaur Arora# (please refer notes)",
+              "urlSlug": "",
+              "portfolioId": ""
+            }
+          ],
+          "publicNonInstitutionalHolding": [
+            {
+              "holdingPercentage": "2.82",
+              "totalShareVolume": 3373312,
+              "name": "Kishor Kumar Singh",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "2.31",
+              "totalShareVolume": 2764719,
+              "name": "Alok Kumar",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "2.25",
+              "totalShareVolume": 2688000,
+              "name": "Ashok Kumar",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "2.12",
+              "totalShareVolume": 2530783,
+              "name": "Deepak Kumar Singh",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "1.41",
+              "totalShareVolume": 1684535,
+              "name": "Rajesh Kumar",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "1.24",
+              "totalShareVolume": 1485342,
+              "name": "Rajeev Ranjan",
+              "urlSlug": "",
+              "portfolioId": ""
+            }
+          ]
+        },
+        "30-Jun-2024": {
+          "promoterHolding": [
+            {
+              "holdingPercentage": "20.66",
+              "totalShareVolume": 24705800,
+              "name": "Sarandhar Singh* (please refer notes)",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "7.27",
+              "totalShareVolume": 8695360,
+              "name": "Basudeo Narain Singh",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "6.42",
+              "totalShareVolume": 7682000,
+              "name": "Mritunjay Kumar Singh",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "5.39",
+              "totalShareVolume": 6445745,
+              "name": "Madhurima Singh$ (please refer notes)",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "2.59",
+              "totalShareVolume": 3092875,
+              "name": "Madhurima Singh@ (please refer notes)",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "2.46",
+              "totalShareVolume": 2938220,
+              "name": "Jayanti Sinha",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "2.16",
+              "totalShareVolume": 2579045,
+              "name": "Seema Singh",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "2.00",
+              "totalShareVolume": 2394050,
+              "name": "Archana Singh",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "1.01",
+              "totalShareVolume": 1208971,
+              "name": "Aniruddha Singh& (please refer notes)",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "1.01",
+              "totalShareVolume": 1208971,
+              "name": "Divya Singh& (please refer notes)",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "1.01",
+              "totalShareVolume": 1208650,
+              "name": "Meghna Singh",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "1.00",
+              "totalShareVolume": 1195650,
+              "name": "Shrey Shree Anant Singh",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "0.79",
+              "totalShareVolume": 948194,
+              "name": "Madhurima Singh& (please refer notes)",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "0.46",
+              "totalShareVolume": 550000,
+              "name": "Sadhika Raj",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "0.46",
+              "totalShareVolume": 550000,
+              "name": "Sakshi Sinha",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "0.46",
+              "totalShareVolume": 550000,
+              "name": "Satyam Sinha",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "0.46",
+              "totalShareVolume": 550000,
+              "name": "Shikhar Raj",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "0.45",
+              "totalShareVolume": 538038,
+              "name": "Raj Kumar Singh",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "0.09",
+              "totalShareVolume": 102695,
+              "name": "Srinivas Singh# (please refer notes)",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "0.08",
+              "totalShareVolume": 100517,
+              "name": "Manju Singh# (please refer notes)",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "0.07",
+              "totalShareVolume": 79800,
+              "name": "Sarandhar Singh# (please refer notes)",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "0.06",
+              "totalShareVolume": 71934,
+              "name": "Satish Kumar Singh# (please refer notes)",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "0.01",
+              "totalShareVolume": 7800,
+              "name": "Inderjit Kaur Arora# (please refer notes)",
+              "urlSlug": "",
+              "portfolioId": ""
+            }
+          ],
+          "publicNonInstitutionalHolding": [
+            {
+              "holdingPercentage": "2.84",
+              "totalShareVolume": 3397944,
+              "name": "Kishor Kumar Singh",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "2.31",
+              "totalShareVolume": 2764719,
+              "name": "Alok Kumar",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "2.26",
+              "totalShareVolume": 2700000,
+              "name": "Ashok Kumar",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "2.15",
+              "totalShareVolume": 2572783,
+              "name": "Deepak Kumar Singh",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "1.41",
+              "totalShareVolume": 1684535,
+              "name": "Rajesh Kumar",
+              "urlSlug": "",
+              "portfolioId": ""
+            },
+            {
+              "holdingPercentage": "1.24",
+              "totalShareVolume": 1485342,
+              "name": "Rajeev Ranjan",
+              "urlSlug": "",
+              "portfolioId": ""
+            }
+          ]
+        }
+      }
+    }
+  }
+}
