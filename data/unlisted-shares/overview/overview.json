@@ -1,0 +1,34 @@
+{
+  "success": 1,
+  "data": [
+    {
+      "name": "Price Overview",
+      "url": "/price-overview"
+    },
+    {
+      "name": "Key Statistics",
+      "url": "/statistics",
+      "uniqueId": 2
+    },
+    {
+      "name": "Details",
+      "url": "/details",
+      "uniqueId": 3
+    },
+    {
+      "name": "Returns",
+      "url": "/returns",
+      "uniqueId": 4
+    },
+    {
+      "name": "Financial Overview",
+      "url": "/finance-overview",
+      "uniqueId": 5
+    },
+    {
+      "name": "Partners",
+      "url": "/partners",
+      "uniqueId": 6
+    }
+  ]
+}

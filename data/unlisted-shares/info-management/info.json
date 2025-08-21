@@ -1,0 +1,40 @@
+{
+  "success": 1,
+  "data": {
+    "management": [
+      {
+        "name": "Basudeo N Singh",
+        "designation": "Executive Chairman"
+      },
+      {
+        "name": "Sandeep Singh",
+        "designation": "Managing Director"
+      },
+      {
+        "name": "Madhurima Singh",
+        "designation": "Executive Director"
+      },
+      {
+        "name": "Srinivas Singh",
+        "designation": "Executive Director"
+      },
+      {
+        "name": "Mritunjay Kumar Singh",
+        "designation": "Executive Director"
+      }
+    ],
+    "address": {
+      "address1": "Alkem House,",
+      "address2": "Senapati Bapat Marg,,Lower Parel,",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "pincode": "400013",
+      "telephone1": "022-39829999",
+      "telephone2": "",
+      "fax1": "022-24952955",
+      "fax2": "",
+      "email": "investors@alkem.com",
+      "web": "http://www.alkemlabs.com"
+    }
+  }
+}

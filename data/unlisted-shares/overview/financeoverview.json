@@ -1,0 +1,98 @@
+{
+  "success": 1,
+  "data": {
+    "list": [
+      {
+        "heading": "Revenue",
+        "data": [
+          {
+            "year": "2021",
+            "value": "164177.00",
+            "formattedValue": "164,177.00 Cr"
+          },
+          {
+            "year": "2022",
+            "value": "191754.00",
+            "formattedValue": "191,754.00 Cr"
+          },
+          {
+            "year": "2023",
+            "value": "225458.00",
+            "formattedValue": "225,458.00 Cr"
+          },
+          {
+            "year": "2024",
+            "value": "240893.00",
+            "formattedValue": "240,893.00 Cr"
+          },
+          {
+            "year": "2025",
+            "value": "255324.00",
+            "formattedValue": "255,324.00 Cr"
+          }
+        ]
+      },
+      {
+        "heading": "Net Profit",
+        "data": [
+          {
+            "year": "2021",
+            "value": "32562.00",
+            "formattedValue": "32,562.00 Cr"
+          },
+          {
+            "year": "2022",
+            "value": "38449.00",
+            "formattedValue": "38,449.00 Cr"
+          },
+          {
+            "year": "2023",
+            "value": "42303.00",
+            "formattedValue": "42,303.00 Cr"
+          },
+          {
+            "year": "2024",
+            "value": "46099.00",
+            "formattedValue": "46,099.00 Cr"
+          },
+          {
+            "year": "2025",
+            "value": "48797.00",
+            "formattedValue": "48,797.00 Cr"
+          }
+        ]
+      },
+      {
+        "heading": "EPS",
+        "data": [
+          {
+            "year": "2021",
+            "value": "86.71",
+            "formattedValue": "86.71"
+          },
+          {
+            "year": "2022",
+            "value": "103.62",
+            "formattedValue": "103.62"
+          },
+          {
+            "year": "2023",
+            "value": "115.19",
+            "formattedValue": "115.19"
+          },
+          {
+            "year": "2024",
+            "value": "125.88",
+            "formattedValue": "125.88"
+          },
+          {
+            "year": "2025",
+            "value": "134.19",
+            "formattedValue": "134.19"
+          }
+        ]
+      }
+    ],
+    "type": "Consolidated"
+  }
+}
