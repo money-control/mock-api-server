@@ -1,0 +1,134 @@
+{
+    "success": 1,
+    "data": {
+        "total": 34,
+        "page": 1,
+        "size": 3,
+        "displayLock": "Y",
+        "scanproflag": 3,
+        "data": [
+            {
+                "scId": "BAF",
+                "exId": "N",
+                "stock": "Bajaj Finance",
+                "data": [
+                    {
+                        "heading": "FY 26*",
+                        "data": {
+                            "eps": "32",
+                            "pe": 27,
+                            "bvps": "xx",
+                            "pb": "xx",
+                            "analyst": "*No. of Analysts: 28"
+                        }
+                    },
+                    {
+                        "heading": "FY 27**",
+                        "data": {
+                            "eps": "40",
+                            "pe": 22,
+                            "bvps": "xx",
+                            "pb": "xx",
+                            "analyst": "**No. of Analysts: 29"
+                        }
+                    },
+                    {
+                        "heading": "FY 28***",
+                        "data": {
+                            "eps": "49",
+                            "pe": 18,
+                            "bvps": "xx",
+                            "pb": "xx",
+                            "analyst": "***No. of Analysts: 18"
+                        }
+                    }
+                ],
+                "analystCount": 28
+            },
+            {
+                "scId": "ILG",
+                "exId": "N",
+                "stock": "ICICI Lombard ",
+                "data": [
+                    {
+                        "heading": "FY 26*",
+                        "data": {
+                            "eps": "57",
+                            "pe": 33,
+                            "bvps": "xx",
+                            "pb": "xx",
+                            "analyst": "*No. of Analysts: 25"
+                        }
+                    },
+                    {
+                        "heading": "FY 27**",
+                        "data": {
+                            "eps": "65",
+                            "pe": 29,
+                            "bvps": "xx",
+                            "pb": "xx",
+                            "analyst": "**No. of Analysts: 25"
+                        }
+                    },
+                    {
+                        "heading": "FY 28***",
+                        "data": {
+                            "eps": "75",
+                            "pe": 25,
+                            "bvps": "xx",
+                            "pb": "xx",
+                            "analyst": "***No. of Analysts: 18"
+                        }
+                    }
+                ],
+                "analystCount": 25
+            },
+            {
+                "scId": "BB09",
+                "exId": "N",
+                "stock": "Bandhan Bank",
+                "data": [
+                    {
+                        "heading": "FY 26*",
+                        "data": {
+                            "eps": "17",
+                            "pe": 10,
+                            "bvps": "xx",
+                            "pb": "xx",
+                            "analyst": "*No. of Analysts: 24"
+                        }
+                    },
+                    {
+                        "heading": "FY 27**",
+                        "data": {
+                            "eps": "22",
+                            "pe": 8,
+                            "bvps": "xx",
+                            "pb": "xx",
+                            "analyst": "**No. of Analysts: 24"
+                        }
+                    },
+                    {
+                        "heading": "FY 28***",
+                        "data": {
+                            "eps": "25",
+                            "pe": 7,
+                            "bvps": "xx",
+                            "pb": "xx",
+                            "analyst": "***No. of Analysts: 15"
+                        }
+                    }
+                ],
+                "analystCount": 24
+            }
+        ],
+        "actions": {
+            "asset": {
+                "mode": "wap",
+                "data": []
+            },
+            "graph": {},
+            "more": {}
+        }
+    }
+}

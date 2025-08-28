@@ -1,0 +1,38 @@
+{
+    "success": 1,
+    "data": {
+        "list": [
+            {
+                "heading": "FY 26 E*",
+                "data": {
+                    "eps": "169",
+                    "pe": "36",
+                    "bvps": "xx",
+                    "pb": "xx",
+                    "analyst": "*No. of Analysts: 3"
+                }
+            },
+            {
+                "heading": "FY 27 E**",
+                "data": {
+                    "eps": "192",
+                    "pe": "32",
+                    "bvps": "xx",
+                    "pb": "xx",
+                    "analyst": "**No. of Analysts: 5"
+                }
+            },
+            {
+                "heading": "FY 28 E***",
+                "data": {
+                    "eps": "221",
+                    "pe": "28",
+                    "bvps": "xx",
+                    "pb": "xx",
+                    "analyst": "***No. of Analysts: 3"
+                }
+            }
+        ],
+        "displayLock": "N"
+    }
+}

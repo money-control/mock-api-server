@@ -95,6 +95,14 @@ server.get('/pro-stock-list/config', (req, res) => {
   return res.status(200).json(router.db.get('proStockListConfig').value());
 });
 
+server.get('/forecast-bvps/config', (req, res) => {
+  return res.status(200).json(router.db.get('forecastAddBVPS').value());
+});
+
+server.get('/stock-analysis-bvps/config', (req, res) => {
+  return res.status(200).json(router.db.get('stockAnalysisAddBVPS').value());
+});
+
 server.use(router);
 
 const PORT = process.env.PORT || 3000;
