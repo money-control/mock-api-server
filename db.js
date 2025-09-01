@@ -29,6 +29,8 @@ const unlistedCorporateActionBonus= require('./data/unlisted-shares/corporate-ac
 const unlistedCorporateActionDividend= require('./data/unlisted-shares/corporate-action/dividend.json');
 const unlistedCorporateActionReturn= require('./data/unlisted-shares/corporate-action/return.json');
 const unlistedCorporateActionSplit= require('./data/unlisted-shares/corporate-action/splits.json');
+const forecastAddBVPS = require('./data/forecast-bvps/config.json');
+const stockAnalysisAddBVPS = require('./data/stock-analysis-bvps/config.json');
 
 module.exports = {
   users,
@@ -59,6 +61,8 @@ module.exports = {
   unlistedCorporateActionBonus,
   unlistedCorporateActionDividend,
   unlistedCorporateActionReturn,
-  unlistedCorporateActionSplit
+  unlistedCorporateActionSplit,
+  forecastAddBVPS,
+  stockAnalysisAddBVPS
 };
 
