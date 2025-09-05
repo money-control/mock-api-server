@@ -1,0 +1,116 @@
+{
+	"success": 1,
+	"data": {
+		"indicators": [{
+			"id": "rsi",
+			"displayName": "RSI(14)",
+			"count": 1,
+			"values": [{
+				"id": "",
+				"displayName": "",
+				"value": "52.40"
+			}]
+		}, {
+			"id": "macd",
+			"displayName": "MACD(12,26,9)",
+			"count": 1,
+			"values": [{
+				"id": "",
+				"displayName": "",
+				"value": "-2.68"
+			}]
+		}, {
+			"id": "stochastic",
+			"displayName": "Stochastic(20,3)",
+			"count": 1,
+			"values": [{
+				"id": "",
+				"displayName": "",
+				"value": "84.21"
+			}]
+		}, {
+			"id": "roc",
+			"displayName": "ROC(20)",
+			"count": 1,
+			"values": [{
+				"id": "",
+				"displayName": "",
+				"value": "-0.11"
+			}]
+		}, {
+			"id": "cci",
+			"displayName": "CCI(20)",
+			"count": 1,
+			"values": [{
+				"id": "",
+				"displayName": "",
+				"value": "49.52"
+			}]
+		}, {
+			"id": "williamsR",
+			"displayName": "Williamson%R(14)",
+			"count": 1,
+			"values": [{
+				"id": "",
+				"displayName": "",
+				"value": "-15.79"
+			}]
+		}, {
+			"id": "mfi",
+			"displayName": "MFI(14)",
+			"count": 1,
+			"values": [{
+				"id": "",
+				"displayName": "",
+				"value": "59.52"
+			}]
+		}, {
+			"id": "atr",
+			"displayName": "ATR(14)",
+			"count": 1,
+			"values": [{
+				"id": "",
+				"displayName": "",
+				"value": "5.34"
+			}]
+		}, {
+			"id": "adx",
+			"displayName": "ADX(14)",
+			"count": 1,
+			"values": [{
+				"id": "",
+				"displayName": "",
+				"value": "29.77"
+			}]
+		}, {
+			"id": "bollinger",
+			"displayName": "Bollinger Band(20,2)",
+			"count": 3,
+			"values": [{
+				"id": "upperband",
+				"displayName": "UB",
+				"value": "196.34"
+			}, {
+				"id": "lowerband",
+				"displayName": "LB",
+				"value": "184.49"
+			}, {
+				"id": "sma20",
+				"displayName": "SMA20",
+				"value": "190.41"
+			}]
+		}, {
+			"id": "rsc",
+			"displayName": "RSC (6 months)",
+			"count": 1,
+			"values": [{
+				"id": "",
+				"displayName": "",
+				"value": "89.91"
+			}]
+		}],
+		"displayLock": "Y",
+        "scanproflag" : 2,
+		"proNote": ""
+	}
+}

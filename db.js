@@ -31,6 +31,11 @@ const unlistedCorporateActionReturn= require('./data/unlisted-shares/corporate-a
 const unlistedCorporateActionSplit= require('./data/unlisted-shares/corporate-action/splits.json');
 const forecastAddBVPS = require('./data/forecast-bvps/config.json');
 const stockAnalysisAddBVPS = require('./data/stock-analysis-bvps/config.json');
+const getMcTecnicalsRatingData = require('./data/mc-technical-rating/mcTechnicalsRating.json');
+const getMovingAverageData = require('./data/mc-technical-rating/movingAverage.json');
+const getTechnicalIndicatorsData = require('./data/mc-technical-rating/technicalIndicators.json');
+const getCrossoverData = require('./data/mc-technical-rating/crossover.json');
+const gethistoricalsRatingData = require('./data/mc-technical-rating/historicalRatings.json');
 
 module.exports = {
   users,
@@ -63,6 +68,11 @@ module.exports = {
   unlistedCorporateActionReturn,
   unlistedCorporateActionSplit,
   forecastAddBVPS,
-  stockAnalysisAddBVPS
+  stockAnalysisAddBVPS,
+  getMcTecnicalsRatingData,
+  getMovingAverageData,
+  getTechnicalIndicatorsData,
+  getCrossoverData,
+  gethistoricalsRatingData
 };
 

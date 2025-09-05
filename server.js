@@ -102,6 +102,22 @@ server.get('/forecast-bvps/config', (req, res) => {
 server.get('/stock-analysis-bvps/config', (req, res) => {
   return res.status(200).json(router.db.get('stockAnalysisAddBVPS').value());
 });
+server.get('/mc-technical-rating/mcTechnicalsRating', (req, res) => {
+  return res.status(200).json(router.db.get('getMcTecnicalsRatingData').value());
+});
+server.get('/mc-technical-rating/movingAverage', (req, res) => {
+  return res.status(200).json(router.db.get('getMovingAverageData').value());
+});
+server.get('/mc-technical-rating/technicalIndicators', (req, res) => {
+  return res.status(200).json(router.db.get('getTechnicalIndicatorsData').value());
+});
+server.get('/mc-technical-rating/crossover', (req, res) => {
+  return res.status(200).json(router.db.get('getCrossoverData').value());
+});
+server.get('/mc-technical-rating/historicalRatings', (req, res) => {
+  return res.status(200).json(router.db.get('gethistoricalsRatingData').value());
+});
+
 
 server.use(router);
 
