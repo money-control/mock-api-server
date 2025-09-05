@@ -1,0 +1,27 @@
+{
+	"success": 1,
+	"data": {
+		"sma": [{
+			"key": "5",
+			"value": "187.81"
+		}, {
+			"key": "10",
+			"value": "189.78"
+		}, {
+			"key": "20",
+			"value": "190.41"
+		}, {
+			"key": "50",
+			"value": "198.56"
+		}, {
+			"key": "100",
+			"value": "203.53"
+		}, {
+			"key": "200",
+			"value": "218.16"
+		}],
+		"displayLock": "Y",
+        "scanproflag": 2,
+		"proNote": ""
+	}
+}

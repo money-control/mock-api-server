@@ -1,0 +1,24 @@
+{
+	"success": 1,
+	"data": {
+		"crossover": [{
+			"key": "5_20",
+			"displayValue": "5 & 20 DMA Crossover",
+			"period": "Short Term",
+			"value": "0.00"
+		}, {
+			"key": "20_50",
+			"displayValue": "20 & 50 DMA Crossover",
+			"period": "Medium Term",
+			"value": "0.00"
+		}, {
+			"key": "50_200",
+			"displayValue": "50 & 200 DMA Crossover",
+			"period": "Long Term",
+			"value": "0.00"
+		}],
+		"displayLock": "Y",
+        "scanproflag": 2,
+		"proNote": ""
+	}
+}

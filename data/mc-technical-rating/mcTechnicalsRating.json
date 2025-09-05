@@ -1,0 +1,94 @@
+{
+	"success": 1,
+	"data": {
+		"currentPeriod": "Daily",
+		"peroidData": [{
+			"value": "Daily",
+			"displayValue": "Daily - Indicates Short Term Trend",
+			"url": "https://api.moneycontrol.com/mcapi/technicals/v2/details?scId=PP37&dur=D&deviceType=I",
+			"shareUrl": "https://www.moneycontrol.com/technical-analysis/piramalpharma/PP34/daily"
+		}, {
+			"value": "Weekly",
+			"displayValue": "Weekly - Indicates Medium Term Trend",
+			"url": "https://api.moneycontrol.com/mcapi/technicals/v2/details?scId=PP37&dur=W&deviceType=I",
+			"shareUrl": "https://www.moneycontrol.com/technical-analysis/piramalpharma/PP34/weekly"
+		}, {
+			"value": "Monthly",
+			"displayValue": "Monthly - Indicates Long Term Trend",
+			"url": "https://api.moneycontrol.com/mcapi/technicals/v2/details?scId=PP37&dur=M&deviceType=I",
+			"shareUrl": "https://www.moneycontrol.com/technical-analysis/piramalpharma/PP34/monthly"
+		}],
+		"pivotLevels": [{
+			"key": "Classic",
+			"pivotLevel": {
+				"pivotPoint": "187.24",
+				"r1": "188.74",
+				"r2": "190.78",
+				"r3": "192.28",
+				"s1": "185.20",
+				"s2": "183.70",
+				"s3": "181.66"
+			}
+		}, {
+			"key": "Fibonacci",
+			"pivotLevel": {
+				"pivotPoint": "187.24",
+				"r1": "188.59",
+				"r2": "189.42",
+				"r3": "190.78",
+				"s1": "185.88",
+				"s2": "185.05",
+				"s3": "183.70"
+			}
+		}, {
+			"key": "Camarilla",
+			"pivotLevel": {
+				"pivotPoint": "187.24",
+				"r1": "187.03",
+				"r2": "187.36",
+				"r3": "187.68",
+				"s1": "186.39",
+				"s2": "186.06",
+				"s3": "185.74"
+			}
+		}],
+		"summary": [{
+			"sentiments": "Moving Average (MA)",
+			"bearishCount": 3,
+			"bullishCount": 3,
+			"neutralCount": 0,
+			"indication": "Neutral",
+			"detailUrl": "https://api.moneycontrol.com/mcapi/technicals/v2/analysis?scId=PP37&dur=D&fields=sma&deviceType=I"
+		}, {
+			"sentiments": "Technical Indicators",
+			"bearishCount": 2,
+			"bullishCount": 0,
+			"neutralCount": 3,
+			"indication": "Neutral",
+			"detailUrl": "https://api.moneycontrol.com/mcapi/technicals/v2/analysis?scId=PP37&dur=D&fields=indicators&deviceType=I"
+		}, {
+			"sentiments": "MA Crossovers",
+			"bearishCount": 3,
+			"bullishCount": 0,
+			"neutralCount": 0,
+			"indication": "Bearish",
+			"detailUrl": "https://api.moneycontrol.com/mcapi/technicals/v2/analysis?scId=PP37&dur=D&fields=crossover&deviceType=I"
+		}, {
+			"sentiments": "Historical Rating",
+			"bearishCount": 0,
+			"bullishCount": 0,
+			"neutralCount": 0,
+			"indication": "",
+			"detailUrl": "https://api.moneycontrol.com/mcapi/technicals/v2/sentiment?scId=PP37&dur=D&sentiment_dur=5Y&deviceType=I"
+		}],
+		"overall": {
+			"totalBearish": 8,
+			"totalBullish": 3,
+			"totalNeutral": 3,
+			"indication": "Bearish"
+		},
+		"displayLock": "N",
+        "scanproflag" : 2,
+		"proNote": ""
+	}
+}
